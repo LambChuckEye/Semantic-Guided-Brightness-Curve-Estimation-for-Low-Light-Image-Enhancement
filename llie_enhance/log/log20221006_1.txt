@@ -1,0 +1,3020 @@
+Namespace(gpu_id=0, img_path='/home/wsz/workspace/Data/LOLdataset/our485/low/', img_val_path='/home/wsz/workspace/Data/LOLdataset/eval15/low/', batch_size=4, lr=0.0001, weight_decay=0, pretrain_dir='/home/wsz/workspace/Illumination-Adaptive-Transformer/IAT_enhance/workdirs/snapshots_folder_lol_v1_patch_unet_weight_wo_globel_221006/best_Epoch.pth', num_epochs=200, display_iter=10, snapshots_folder='workdirs/snapshots_folder_lol_v1_whole_u2net_weight_220923')
+Total examples: 485
+Total examples: 15
+the device is: cuda:0
+######## Start IAT Training #########
+the epoch is: 0
+/home/wsz/miniconda3/envs/kang/lib/python3.9/site-packages/torch/nn/functional.py:3509: UserWarning: nn.functional.upsample is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.functional.upsample is deprecated. Use nn.functional.interpolate instead.")
+/home/wsz/miniconda3/envs/kang/lib/python3.9/site-packages/torch/nn/functional.py:3631: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  warnings.warn(
+/home/wsz/miniconda3/envs/kang/lib/python3.9/site-packages/torch/nn/functional.py:1806: UserWarning: nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.
+  warnings.warn("nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.")
+Loss at iteration 10 : 0.016423314809799194
+Loss at iteration 20 : 0.007990862242877483
+Loss at iteration 30 : 0.009092982858419418
+Loss at iteration 40 : 0.009546760469675064
+Loss at iteration 50 : 0.0132084209471941
+Loss at iteration 60 : 0.01713770627975464
+Loss at iteration 70 : 0.009100984781980515
+Loss at iteration 80 : 0.008567886427044868
+Loss at iteration 90 : 0.013883608393371105
+Loss at iteration 100 : 0.010908161289989948
+Loss at iteration 110 : 0.006583976559340954
+Loss at iteration 120 : 0.015679318457841873
+The SSIM Value is: 0.8278074661890665
+The PSNR Value is: 20.843311818440757
+the highest SSIM value is: 20.843311818440757
+the epoch is: 1
+Loss at iteration 10 : 0.0076546077616512775
+Loss at iteration 20 : 0.01052294485270977
+Loss at iteration 30 : 0.010145402513444424
+Loss at iteration 40 : 0.010410464368760586
+Loss at iteration 50 : 0.007475162856280804
+Loss at iteration 60 : 0.014206900261342525
+Loss at iteration 70 : 0.013189227320253849
+Loss at iteration 80 : 0.01037655584514141
+Loss at iteration 90 : 0.01833229884505272
+Loss at iteration 100 : 0.014363845810294151
+Loss at iteration 110 : 0.011022872291505337
+Loss at iteration 120 : 0.008661536499857903
+The SSIM Value is: 0.8295234402020772
+The PSNR Value is: 20.953464889526366
+the highest SSIM value is: 20.953464889526366
+the epoch is: 2
+Loss at iteration 10 : 0.020329169929027557
+Loss at iteration 20 : 0.007676861714571714
+Loss at iteration 30 : 0.012243361212313175
+Loss at iteration 40 : 0.011161165311932564
+Loss at iteration 50 : 0.013161515817046165
+Loss at iteration 60 : 0.013219079934060574
+Loss at iteration 70 : 0.0160842202603817
+Loss at iteration 80 : 0.023074181750416756
+Loss at iteration 90 : 0.011966384947299957
+Loss at iteration 100 : 0.009272984229028225
+Loss at iteration 110 : 0.01330115832388401
+Loss at iteration 120 : 0.0157768614590168
+The SSIM Value is: 0.821066536506017
+The PSNR Value is: 20.700446383158365
+the epoch is: 3
+Loss at iteration 10 : 0.014267646707594395
+Loss at iteration 20 : 0.013786915689706802
+Loss at iteration 30 : 0.011173469945788383
+Loss at iteration 40 : 0.013386036269366741
+Loss at iteration 50 : 0.011230966076254845
+Loss at iteration 60 : 0.01181142870336771
+Loss at iteration 70 : 0.008556315675377846
+Loss at iteration 80 : 0.010094914585351944
+Loss at iteration 90 : 0.012999171391129494
+Loss at iteration 100 : 0.007174663245677948
+Loss at iteration 110 : 0.008647230453789234
+Loss at iteration 120 : 0.01598857156932354
+The SSIM Value is: 0.8189179937044779
+The PSNR Value is: 20.9633425394694
+the highest SSIM value is: 20.9633425394694
+the epoch is: 4
+Loss at iteration 10 : 0.010505283251404762
+Loss at iteration 20 : 0.008787884376943111
+Loss at iteration 30 : 0.007340248208492994
+Loss at iteration 40 : 0.007649576291441917
+Loss at iteration 50 : 0.012758031487464905
+Loss at iteration 60 : 0.013340434059500694
+Loss at iteration 70 : 0.008976306766271591
+Loss at iteration 80 : 0.008754448965191841
+Loss at iteration 90 : 0.010959059000015259
+Loss at iteration 100 : 0.013026642613112926
+Loss at iteration 110 : 0.012277933768928051
+Loss at iteration 120 : 0.010533299297094345
+The SSIM Value is: 0.8278500437736511
+The PSNR Value is: 21.816907564798992
+the highest SSIM value is: 21.816907564798992
+the epoch is: 5
+Loss at iteration 10 : 0.008971694856882095
+Loss at iteration 20 : 0.012000927701592445
+Loss at iteration 30 : 0.008197902701795101
+Loss at iteration 40 : 0.007381103001534939
+Loss at iteration 50 : 0.01070480514317751
+Loss at iteration 60 : 0.007798364385962486
+Loss at iteration 70 : 0.01157231256365776
+Loss at iteration 80 : 0.012491853907704353
+Loss at iteration 90 : 0.014062734320759773
+Loss at iteration 100 : 0.01190242636948824
+Loss at iteration 110 : 0.01123766414821148
+Loss at iteration 120 : 0.008763272315263748
+The SSIM Value is: 0.8282449881235758
+The PSNR Value is: 21.679336865743
+the epoch is: 6
+Loss at iteration 10 : 0.013740034773945808
+Loss at iteration 20 : 0.00964440032839775
+Loss at iteration 30 : 0.010336363688111305
+Loss at iteration 40 : 0.012485211715102196
+Loss at iteration 50 : 0.015949469059705734
+Loss at iteration 60 : 0.01509278267621994
+Loss at iteration 70 : 0.013520786538720131
+Loss at iteration 80 : 0.014564918354153633
+Loss at iteration 90 : 0.008149506524205208
+Loss at iteration 100 : 0.010857407003641129
+Loss at iteration 110 : 0.018934130668640137
+Loss at iteration 120 : 0.007015904411673546
+The SSIM Value is: 0.8310995499293009
+The PSNR Value is: 22.143980026245117
+the highest SSIM value is: 22.143980026245117
+the epoch is: 7
+Loss at iteration 10 : 0.008902639150619507
+Loss at iteration 20 : 0.0054859584197402
+Loss at iteration 30 : 0.008557905443012714
+Loss at iteration 40 : 0.010112659074366093
+Loss at iteration 50 : 0.0083302091807127
+Loss at iteration 60 : 0.012848378159105778
+Loss at iteration 70 : 0.00829268991947174
+Loss at iteration 80 : 0.01066537294536829
+Loss at iteration 90 : 0.008843626827001572
+Loss at iteration 100 : 0.009949497878551483
+Loss at iteration 110 : 0.008355825208127499
+Loss at iteration 120 : 0.00977583508938551
+The SSIM Value is: 0.8227911750475566
+The PSNR Value is: 21.40590629577637
+the epoch is: 8
+Loss at iteration 10 : 0.02007870003581047
+Loss at iteration 20 : 0.00959780253469944
+Loss at iteration 30 : 0.008451832458376884
+Loss at iteration 40 : 0.0052674273028969765
+Loss at iteration 50 : 0.00982070155441761
+Loss at iteration 60 : 0.007692777551710606
+Loss at iteration 70 : 0.010723653249442577
+Loss at iteration 80 : 0.008309594355523586
+Loss at iteration 90 : 0.009228324517607689
+Loss at iteration 100 : 0.013256650418043137
+Loss at iteration 110 : 0.011880750767886639
+Loss at iteration 120 : 0.02162453904747963
+The SSIM Value is: 0.8332990328470866
+The PSNR Value is: 21.94109675089518
+the epoch is: 9
+Loss at iteration 10 : 0.01718764379620552
+Loss at iteration 20 : 0.008032678626477718
+Loss at iteration 30 : 0.008605457842350006
+Loss at iteration 40 : 0.014714814722537994
+Loss at iteration 50 : 0.009823460131883621
+Loss at iteration 60 : 0.0072739701718091965
+Loss at iteration 70 : 0.008493635803461075
+Loss at iteration 80 : 0.020010825246572495
+Loss at iteration 90 : 0.00874162558466196
+Loss at iteration 100 : 0.011507466435432434
+Loss at iteration 110 : 0.010246748104691505
+Loss at iteration 120 : 0.009482043795287609
+The SSIM Value is: 0.8192752401034037
+The PSNR Value is: 20.348375829060874
+the epoch is: 10
+Loss at iteration 10 : 0.023043397814035416
+Loss at iteration 20 : 0.017690058797597885
+Loss at iteration 30 : 0.011311152949929237
+Loss at iteration 40 : 0.004858054686337709
+Loss at iteration 50 : 0.014684461057186127
+Loss at iteration 60 : 0.015123939141631126
+Loss at iteration 70 : 0.011556383222341537
+Loss at iteration 80 : 0.014866607263684273
+Loss at iteration 90 : 0.013544084504246712
+Loss at iteration 100 : 0.012693828903138638
+Loss at iteration 110 : 0.008681015111505985
+Loss at iteration 120 : 0.008971569128334522
+The SSIM Value is: 0.8238358894983927
+The PSNR Value is: 20.95064067840576
+the epoch is: 11
+Loss at iteration 10 : 0.012961305677890778
+Loss at iteration 20 : 0.009920789860188961
+Loss at iteration 30 : 0.007354261819273233
+Loss at iteration 40 : 0.01275101862847805
+Loss at iteration 50 : 0.005949133541435003
+Loss at iteration 60 : 0.009875118732452393
+Loss at iteration 70 : 0.00958499126136303
+Loss at iteration 80 : 0.00857865996658802
+Loss at iteration 90 : 0.010163182392716408
+Loss at iteration 100 : 0.011113857850432396
+Loss at iteration 110 : 0.008956490084528923
+Loss at iteration 120 : 0.006269040983170271
+The SSIM Value is: 0.8306030948956807
+The PSNR Value is: 21.721177673339845
+the epoch is: 12
+Loss at iteration 10 : 0.009916003793478012
+Loss at iteration 20 : 0.009909150190651417
+Loss at iteration 30 : 0.006204009521752596
+Loss at iteration 40 : 0.00836964137852192
+Loss at iteration 50 : 0.01562623307108879
+Loss at iteration 60 : 0.010884840972721577
+Loss at iteration 70 : 0.009605122730135918
+Loss at iteration 80 : 0.010921526700258255
+Loss at iteration 90 : 0.010500416159629822
+Loss at iteration 100 : 0.008562673814594746
+Loss at iteration 110 : 0.012102406471967697
+Loss at iteration 120 : 0.010602980852127075
+The SSIM Value is: 0.8297021349271139
+The PSNR Value is: 22.11624755859375
+the epoch is: 13
+Loss at iteration 10 : 0.007931466214358807
+Loss at iteration 20 : 0.009838536381721497
+Loss at iteration 30 : 0.007422322407364845
+Loss at iteration 40 : 0.010202627629041672
+Loss at iteration 50 : 0.010966809466481209
+Loss at iteration 60 : 0.013262158259749413
+Loss at iteration 70 : 0.012158472090959549
+Loss at iteration 80 : 0.005223899148404598
+Loss at iteration 90 : 0.006388040725141764
+Loss at iteration 100 : 0.009367567487061024
+Loss at iteration 110 : 0.007132959086447954
+Loss at iteration 120 : 0.010351219214498997
+The SSIM Value is: 0.8310102860132853
+The PSNR Value is: 22.00047779083252
+the epoch is: 14
+Loss at iteration 10 : 0.012939478270709515
+Loss at iteration 20 : 0.01136195007711649
+Loss at iteration 30 : 0.012600119225680828
+Loss at iteration 40 : 0.010074920952320099
+Loss at iteration 50 : 0.01484991330653429
+Loss at iteration 60 : 0.013840582221746445
+Loss at iteration 70 : 0.019701829180121422
+Loss at iteration 80 : 0.00824633426964283
+Loss at iteration 90 : 0.008558623492717743
+Loss at iteration 100 : 0.005794984754174948
+Loss at iteration 110 : 0.01059835683554411
+Loss at iteration 120 : 0.007981544360518456
+The SSIM Value is: 0.8312703450520833
+The PSNR Value is: 22.324796613057455
+the highest SSIM value is: 22.324796613057455
+the epoch is: 15
+Loss at iteration 10 : 0.007475211285054684
+Loss at iteration 20 : 0.005120602902024984
+Loss at iteration 30 : 0.012332132086157799
+Loss at iteration 40 : 0.009742390364408493
+Loss at iteration 50 : 0.011673998087644577
+Loss at iteration 60 : 0.012198266573250294
+Loss at iteration 70 : 0.01248906273394823
+Loss at iteration 80 : 0.011147093027830124
+Loss at iteration 90 : 0.01021789200603962
+Loss at iteration 100 : 0.005542062222957611
+Loss at iteration 110 : 0.019231151789426804
+Loss at iteration 120 : 0.006731224246323109
+The SSIM Value is: 0.8303176124890645
+The PSNR Value is: 21.728983624776205
+the epoch is: 16
+Loss at iteration 10 : 0.008461980149149895
+Loss at iteration 20 : 0.01574181765317917
+Loss at iteration 30 : 0.012009426951408386
+Loss at iteration 40 : 0.01258908025920391
+Loss at iteration 50 : 0.006189257372170687
+Loss at iteration 60 : 0.008260771632194519
+Loss at iteration 70 : 0.010804392397403717
+Loss at iteration 80 : 0.01162109524011612
+Loss at iteration 90 : 0.00977452751249075
+Loss at iteration 100 : 0.014304043725132942
+Loss at iteration 110 : 0.008592503145337105
+Loss at iteration 120 : 0.015274103730916977
+The SSIM Value is: 0.8316553314526876
+The PSNR Value is: 21.96619084676107
+the epoch is: 17
+Loss at iteration 10 : 0.008666415698826313
+Loss at iteration 20 : 0.01447810884565115
+Loss at iteration 30 : 0.008243666961789131
+Loss at iteration 40 : 0.01139766164124012
+Loss at iteration 50 : 0.00924075860530138
+Loss at iteration 60 : 0.015069895423948765
+Loss at iteration 70 : 0.007439495995640755
+Loss at iteration 80 : 0.011446436867117882
+Loss at iteration 90 : 0.007035612594336271
+Loss at iteration 100 : 0.010341159999370575
+Loss at iteration 110 : 0.019962506368756294
+Loss at iteration 120 : 0.01381275337189436
+The SSIM Value is: 0.8264924605687459
+The PSNR Value is: 21.440981165568033
+the epoch is: 18
+Loss at iteration 10 : 0.012497678399085999
+Loss at iteration 20 : 0.01229499839246273
+Loss at iteration 30 : 0.013894476927816868
+Loss at iteration 40 : 0.006004943512380123
+Loss at iteration 50 : 0.010444983839988708
+Loss at iteration 60 : 0.008271820843219757
+Loss at iteration 70 : 0.0061011118814349174
+Loss at iteration 80 : 0.01318618655204773
+Loss at iteration 90 : 0.011280638165771961
+Loss at iteration 100 : 0.006853180937469006
+Loss at iteration 110 : 0.011061854660511017
+Loss at iteration 120 : 0.006096974015235901
+The SSIM Value is: 0.826423446337382
+The PSNR Value is: 21.48067111968994
+the epoch is: 19
+Loss at iteration 10 : 0.016109377145767212
+Loss at iteration 20 : 0.007937628775835037
+Loss at iteration 30 : 0.007773735094815493
+Loss at iteration 40 : 0.006920200772583485
+Loss at iteration 50 : 0.009253737516701221
+Loss at iteration 60 : 0.008953642100095749
+Loss at iteration 70 : 0.010209409520030022
+Loss at iteration 80 : 0.009769106283783913
+Loss at iteration 90 : 0.012248869985342026
+Loss at iteration 100 : 0.0073189502581954
+Loss at iteration 110 : 0.008556362241506577
+Loss at iteration 120 : 0.011029664427042007
+The SSIM Value is: 0.8334948817888895
+The PSNR Value is: 21.92905069986979
+the epoch is: 20
+Loss at iteration 10 : 0.007112306077033281
+Loss at iteration 20 : 0.009939486160874367
+Loss at iteration 30 : 0.015536654740571976
+Loss at iteration 40 : 0.007615023758262396
+Loss at iteration 50 : 0.011515684425830841
+Loss at iteration 60 : 0.02004377171397209
+Loss at iteration 70 : 0.008090412244200706
+Loss at iteration 80 : 0.011221934109926224
+Loss at iteration 90 : 0.006515562534332275
+Loss at iteration 100 : 0.00812448374927044
+Loss at iteration 110 : 0.005439136642962694
+Loss at iteration 120 : 0.012000775896012783
+The SSIM Value is: 0.8221758921941121
+The PSNR Value is: 21.24370708465576
+the epoch is: 21
+Loss at iteration 10 : 0.007278744596987963
+Loss at iteration 20 : 0.009250186383724213
+Loss at iteration 30 : 0.00768609344959259
+Loss at iteration 40 : 0.01180952787399292
+Loss at iteration 50 : 0.0073305778205394745
+Loss at iteration 60 : 0.013173327781260014
+Loss at iteration 70 : 0.009796924889087677
+Loss at iteration 80 : 0.006693151779472828
+Loss at iteration 90 : 0.011058583855628967
+Loss at iteration 100 : 0.010213019326329231
+Loss at iteration 110 : 0.009992923587560654
+Loss at iteration 120 : 0.008483700454235077
+The SSIM Value is: 0.820718514919281
+The PSNR Value is: 20.84398994445801
+the epoch is: 22
+Loss at iteration 10 : 0.013763098046183586
+Loss at iteration 20 : 0.011291125789284706
+Loss at iteration 30 : 0.014039319008588791
+Loss at iteration 40 : 0.010999072343111038
+Loss at iteration 50 : 0.007764623966068029
+Loss at iteration 60 : 0.012352930381894112
+Loss at iteration 70 : 0.008303222246468067
+Loss at iteration 80 : 0.012401217594742775
+Loss at iteration 90 : 0.007178550586104393
+Loss at iteration 100 : 0.010828275233507156
+Loss at iteration 110 : 0.014004593715071678
+Loss at iteration 120 : 0.01033607218414545
+The SSIM Value is: 0.8338822642962138
+The PSNR Value is: 21.941274134318032
+the epoch is: 23
+Loss at iteration 10 : 0.007621719967573881
+Loss at iteration 20 : 0.01339411735534668
+Loss at iteration 30 : 0.012403396889567375
+Loss at iteration 40 : 0.008662749081850052
+Loss at iteration 50 : 0.007068069651722908
+Loss at iteration 60 : 0.009257565252482891
+Loss at iteration 70 : 0.010807250626385212
+Loss at iteration 80 : 0.013048520311713219
+Loss at iteration 90 : 0.007983619347214699
+Loss at iteration 100 : 0.0071029458194971085
+Loss at iteration 110 : 0.015181934460997581
+Loss at iteration 120 : 0.00613193167373538
+The SSIM Value is: 0.8314959526062011
+The PSNR Value is: 22.17705866495768
+the epoch is: 24
+Loss at iteration 10 : 0.009565805085003376
+Loss at iteration 20 : 0.007777632214128971
+Loss at iteration 30 : 0.012978937476873398
+Loss at iteration 40 : 0.010735269635915756
+Loss at iteration 50 : 0.009182626381516457
+Loss at iteration 60 : 0.007379158865660429
+Loss at iteration 70 : 0.010340144857764244
+Loss at iteration 80 : 0.014563245698809624
+Loss at iteration 90 : 0.010387737303972244
+Loss at iteration 100 : 0.005411197431385517
+Loss at iteration 110 : 0.014386774972081184
+Loss at iteration 120 : 0.007896805182099342
+The SSIM Value is: 0.8271901607513428
+The PSNR Value is: 21.764034843444826
+the epoch is: 25
+Loss at iteration 10 : 0.013787692412734032
+Loss at iteration 20 : 0.010597579181194305
+Loss at iteration 30 : 0.0090104965493083
+Loss at iteration 40 : 0.014657346531748772
+Loss at iteration 50 : 0.014434950426220894
+Loss at iteration 60 : 0.01274564117193222
+Loss at iteration 70 : 0.007755972445011139
+Loss at iteration 80 : 0.007894037291407585
+Loss at iteration 90 : 0.013499174267053604
+Loss at iteration 100 : 0.005868557840585709
+Loss at iteration 110 : 0.008148498833179474
+Loss at iteration 120 : 0.009121906943619251
+The SSIM Value is: 0.8275489648183186
+The PSNR Value is: 21.050552558898925
+the epoch is: 26
+Loss at iteration 10 : 0.009193266741931438
+Loss at iteration 20 : 0.006896301172673702
+Loss at iteration 30 : 0.017013730481266975
+Loss at iteration 40 : 0.015942808240652084
+Loss at iteration 50 : 0.009148376062512398
+Loss at iteration 60 : 0.01154337264597416
+Loss at iteration 70 : 0.0069790855050086975
+Loss at iteration 80 : 0.012897289358079433
+Loss at iteration 90 : 0.00756522361189127
+Loss at iteration 100 : 0.010877851396799088
+Loss at iteration 110 : 0.009615842252969742
+Loss at iteration 120 : 0.010113056749105453
+The SSIM Value is: 0.8296107292175293
+The PSNR Value is: 21.612877464294435
+the epoch is: 27
+Loss at iteration 10 : 0.010280327871441841
+Loss at iteration 20 : 0.00726408651098609
+Loss at iteration 30 : 0.007712805178016424
+Loss at iteration 40 : 0.007562591694295406
+Loss at iteration 50 : 0.005118789151310921
+Loss at iteration 60 : 0.008793211542069912
+Loss at iteration 70 : 0.012450517155230045
+Loss at iteration 80 : 0.010564986616373062
+Loss at iteration 90 : 0.011139349080622196
+Loss at iteration 100 : 0.008075111545622349
+Loss at iteration 110 : 0.013713886961340904
+Loss at iteration 120 : 0.013119829818606377
+The SSIM Value is: 0.8243964672088623
+The PSNR Value is: 21.28082695007324
+the epoch is: 28
+Loss at iteration 10 : 0.008469476364552975
+Loss at iteration 20 : 0.005689762067049742
+Loss at iteration 30 : 0.012439660727977753
+Loss at iteration 40 : 0.011195540428161621
+Loss at iteration 50 : 0.017283860594034195
+Loss at iteration 60 : 0.012222616001963615
+Loss at iteration 70 : 0.009676122106611729
+Loss at iteration 80 : 0.015278058126568794
+Loss at iteration 90 : 0.011113045737147331
+Loss at iteration 100 : 0.0062191965989768505
+Loss at iteration 110 : 0.008558196946978569
+Loss at iteration 120 : 0.0070436131209135056
+The SSIM Value is: 0.8235155781110127
+The PSNR Value is: 21.19250882466634
+the epoch is: 29
+Loss at iteration 10 : 0.006498363800346851
+Loss at iteration 20 : 0.00787456426769495
+Loss at iteration 30 : 0.00950821116566658
+Loss at iteration 40 : 0.008129379712045193
+Loss at iteration 50 : 0.009118570946156979
+Loss at iteration 60 : 0.008526867255568504
+Loss at iteration 70 : 0.015927214175462723
+Loss at iteration 80 : 0.012012865394353867
+Loss at iteration 90 : 0.011121103540062904
+Loss at iteration 100 : 0.012933271005749702
+Loss at iteration 110 : 0.00950885284692049
+Loss at iteration 120 : 0.015585115179419518
+The SSIM Value is: 0.8339303612709046
+The PSNR Value is: 22.13439915974935
+the epoch is: 30
+Loss at iteration 10 : 0.006760213058441877
+Loss at iteration 20 : 0.0077386293560266495
+Loss at iteration 30 : 0.01313303504139185
+Loss at iteration 40 : 0.016282152384519577
+Loss at iteration 50 : 0.01004488579928875
+Loss at iteration 60 : 0.009859936311841011
+Loss at iteration 70 : 0.012137878686189651
+Loss at iteration 80 : 0.008057691156864166
+Loss at iteration 90 : 0.013022113591432571
+Loss at iteration 100 : 0.007352244108915329
+Loss at iteration 110 : 0.007117217406630516
+Loss at iteration 120 : 0.009207895025610924
+The SSIM Value is: 0.8330251733462016
+The PSNR Value is: 21.765795707702637
+the epoch is: 31
+Loss at iteration 10 : 0.010813646949827671
+Loss at iteration 20 : 0.0110688591375947
+Loss at iteration 30 : 0.009720786474645138
+Loss at iteration 40 : 0.008095940575003624
+Loss at iteration 50 : 0.011645577847957611
+Loss at iteration 60 : 0.008417731150984764
+Loss at iteration 70 : 0.00783593114465475
+Loss at iteration 80 : 0.007800673134624958
+Loss at iteration 90 : 0.006668334826827049
+Loss at iteration 100 : 0.00900549627840519
+Loss at iteration 110 : 0.007166245020925999
+Loss at iteration 120 : 0.006522544659674168
+The SSIM Value is: 0.8324264566103617
+The PSNR Value is: 22.01996307373047
+the epoch is: 32
+Loss at iteration 10 : 0.012263897806406021
+Loss at iteration 20 : 0.013847596012055874
+Loss at iteration 30 : 0.013004930689930916
+Loss at iteration 40 : 0.009457578882575035
+Loss at iteration 50 : 0.00756604690104723
+Loss at iteration 60 : 0.010819913819432259
+Loss at iteration 70 : 0.011763747781515121
+Loss at iteration 80 : 0.008102698251605034
+Loss at iteration 90 : 0.0074272435158491135
+Loss at iteration 100 : 0.008675305172801018
+Loss at iteration 110 : 0.005767710041254759
+Loss at iteration 120 : 0.012640607543289661
+The SSIM Value is: 0.7983312249183655
+The PSNR Value is: 18.9190424601237
+the epoch is: 33
+Loss at iteration 10 : 0.005873254034668207
+Loss at iteration 20 : 0.01116776280105114
+Loss at iteration 30 : 0.010178408585488796
+Loss at iteration 40 : 0.010818676091730595
+Loss at iteration 50 : 0.010587511584162712
+Loss at iteration 60 : 0.008839918300509453
+Loss at iteration 70 : 0.0076737673953175545
+Loss at iteration 80 : 0.00979175977408886
+Loss at iteration 90 : 0.015168951824307442
+Loss at iteration 100 : 0.0067712473683059216
+Loss at iteration 110 : 0.02033964917063713
+Loss at iteration 120 : 0.010749118402600288
+The SSIM Value is: 0.8334259112675985
+The PSNR Value is: 21.54439442952474
+the epoch is: 34
+Loss at iteration 10 : 0.007277993019670248
+Loss at iteration 20 : 0.0075030140578746796
+Loss at iteration 30 : 0.01230376772582531
+Loss at iteration 40 : 0.007471222896128893
+Loss at iteration 50 : 0.008401002734899521
+Loss at iteration 60 : 0.010511092841625214
+Loss at iteration 70 : 0.01180923543870449
+Loss at iteration 80 : 0.007936075329780579
+Loss at iteration 90 : 0.010440513491630554
+Loss at iteration 100 : 0.009234338998794556
+Loss at iteration 110 : 0.010424936190247536
+Loss at iteration 120 : 0.013197813183069229
+The SSIM Value is: 0.8240280747413635
+The PSNR Value is: 20.83622709910075
+the epoch is: 35
+Loss at iteration 10 : 0.011014333926141262
+Loss at iteration 20 : 0.007760252803564072
+Loss at iteration 30 : 0.008034172467887402
+Loss at iteration 40 : 0.010045770555734634
+Loss at iteration 50 : 0.010907481424510479
+Loss at iteration 60 : 0.0071459077298641205
+Loss at iteration 70 : 0.0049422867596149445
+Loss at iteration 80 : 0.00637762900441885
+Loss at iteration 90 : 0.013856378383934498
+Loss at iteration 100 : 0.010196050629019737
+Loss at iteration 110 : 0.008463844656944275
+Loss at iteration 120 : 0.008550504222512245
+The SSIM Value is: 0.825231663386027
+The PSNR Value is: 21.212899017333985
+the epoch is: 36
+Loss at iteration 10 : 0.018263371661305428
+Loss at iteration 20 : 0.008740023709833622
+Loss at iteration 30 : 0.009254657663404942
+Loss at iteration 40 : 0.008280756883323193
+Loss at iteration 50 : 0.007761332672089338
+Loss at iteration 60 : 0.007348616607487202
+Loss at iteration 70 : 0.009586303494870663
+Loss at iteration 80 : 0.014401182532310486
+Loss at iteration 90 : 0.010992759838700294
+Loss at iteration 100 : 0.008335033431649208
+Loss at iteration 110 : 0.008194909431040287
+Loss at iteration 120 : 0.00497920298948884
+The SSIM Value is: 0.8259641567866007
+The PSNR Value is: 21.545024363199868
+the epoch is: 37
+Loss at iteration 10 : 0.006320141721516848
+Loss at iteration 20 : 0.01059209555387497
+Loss at iteration 30 : 0.012670309282839298
+Loss at iteration 40 : 0.019799860194325447
+Loss at iteration 50 : 0.010825356468558311
+Loss at iteration 60 : 0.006233999039977789
+Loss at iteration 70 : 0.007959370501339436
+Loss at iteration 80 : 0.012512098997831345
+Loss at iteration 90 : 0.006180873606353998
+Loss at iteration 100 : 0.00791696086525917
+Loss at iteration 110 : 0.009018476121127605
+Loss at iteration 120 : 0.012327191419899464
+The SSIM Value is: 0.8241196950276692
+The PSNR Value is: 21.28022575378418
+the epoch is: 38
+Loss at iteration 10 : 0.011935894377529621
+Loss at iteration 20 : 0.00630072271451354
+Loss at iteration 30 : 0.009737961925566196
+Loss at iteration 40 : 0.010377932339906693
+Loss at iteration 50 : 0.006998676341027021
+Loss at iteration 60 : 0.008846797980368137
+Loss at iteration 70 : 0.007653567008674145
+Loss at iteration 80 : 0.0107337711378932
+Loss at iteration 90 : 0.008604349568486214
+Loss at iteration 100 : 0.00881653930991888
+Loss at iteration 110 : 0.006289048586040735
+Loss at iteration 120 : 0.006293170619755983
+The SSIM Value is: 0.8226728280385335
+The PSNR Value is: 21.591256014506023
+the epoch is: 39
+Loss at iteration 10 : 0.010091912001371384
+Loss at iteration 20 : 0.0092942975461483
+Loss at iteration 30 : 0.011848175898194313
+Loss at iteration 40 : 0.007924799807369709
+Loss at iteration 50 : 0.014368903823196888
+Loss at iteration 60 : 0.011058332398533821
+Loss at iteration 70 : 0.01283937320113182
+Loss at iteration 80 : 0.009880506433546543
+Loss at iteration 90 : 0.010447585955262184
+Loss at iteration 100 : 0.011333798058331013
+Loss at iteration 110 : 0.005130197387188673
+Loss at iteration 120 : 0.011712228879332542
+The SSIM Value is: 0.8293930927912394
+The PSNR Value is: 21.599383290608724
+the epoch is: 40
+Loss at iteration 10 : 0.01609155535697937
+Loss at iteration 20 : 0.008385423570871353
+Loss at iteration 30 : 0.009242122992873192
+Loss at iteration 40 : 0.008815569803118706
+Loss at iteration 50 : 0.00755338417366147
+Loss at iteration 60 : 0.0107418242841959
+Loss at iteration 70 : 0.01459637563675642
+Loss at iteration 80 : 0.007740798406302929
+Loss at iteration 90 : 0.012763915583491325
+Loss at iteration 100 : 0.010513360612094402
+Loss at iteration 110 : 0.010469434782862663
+Loss at iteration 120 : 0.009305603802204132
+The SSIM Value is: 0.8266694227854411
+The PSNR Value is: 21.586145210266114
+the epoch is: 41
+Loss at iteration 10 : 0.008097220212221146
+Loss at iteration 20 : 0.007158658467233181
+Loss at iteration 30 : 0.009963307529687881
+Loss at iteration 40 : 0.01398932933807373
+Loss at iteration 50 : 0.0093910600990057
+Loss at iteration 60 : 0.007823384366929531
+Loss at iteration 70 : 0.008967185392975807
+Loss at iteration 80 : 0.016568467020988464
+Loss at iteration 90 : 0.009878590703010559
+Loss at iteration 100 : 0.00737761240452528
+Loss at iteration 110 : 0.012925911694765091
+Loss at iteration 120 : 0.007426458410918713
+The SSIM Value is: 0.8210039536158243
+The PSNR Value is: 21.18510716756185
+the epoch is: 42
+Loss at iteration 10 : 0.01031455397605896
+Loss at iteration 20 : 0.009392919018864632
+Loss at iteration 30 : 0.007421516813337803
+Loss at iteration 40 : 0.006623337045311928
+Loss at iteration 50 : 0.007751211524009705
+Loss at iteration 60 : 0.006403559353202581
+Loss at iteration 70 : 0.01237545907497406
+Loss at iteration 80 : 0.014433803036808968
+Loss at iteration 90 : 0.005986616015434265
+Loss at iteration 100 : 0.011517073959112167
+Loss at iteration 110 : 0.011186071671545506
+Loss at iteration 120 : 0.00930212065577507
+The SSIM Value is: 0.8283385435740153
+The PSNR Value is: 22.050204022725424
+the epoch is: 43
+Loss at iteration 10 : 0.015099184587597847
+Loss at iteration 20 : 0.01060430146753788
+Loss at iteration 30 : 0.00614272803068161
+Loss at iteration 40 : 0.009916267357766628
+Loss at iteration 50 : 0.010127891786396503
+Loss at iteration 60 : 0.008223474025726318
+Loss at iteration 70 : 0.009088478982448578
+Loss at iteration 80 : 0.01191147044301033
+Loss at iteration 90 : 0.007842937484383583
+Loss at iteration 100 : 0.009525042958557606
+Loss at iteration 110 : 0.0082875220105052
+Loss at iteration 120 : 0.011107256636023521
+The SSIM Value is: 0.829975442091624
+The PSNR Value is: 21.788230323791502
+the epoch is: 44
+Loss at iteration 10 : 0.008153588511049747
+Loss at iteration 20 : 0.007814113982021809
+Loss at iteration 30 : 0.008178716525435448
+Loss at iteration 40 : 0.010032474994659424
+Loss at iteration 50 : 0.004964484367519617
+Loss at iteration 60 : 0.008317239582538605
+Loss at iteration 70 : 0.01319797895848751
+Loss at iteration 80 : 0.009579201228916645
+Loss at iteration 90 : 0.009070263244211674
+Loss at iteration 100 : 0.008594724349677563
+Loss at iteration 110 : 0.008792733773589134
+Loss at iteration 120 : 0.008797315880656242
+The SSIM Value is: 0.8367703080177307
+The PSNR Value is: 22.246839586893717
+the epoch is: 45
+Loss at iteration 10 : 0.008188609033823013
+Loss at iteration 20 : 0.013050585053861141
+Loss at iteration 30 : 0.00871510524302721
+Loss at iteration 40 : 0.009348303079605103
+Loss at iteration 50 : 0.00924538355320692
+Loss at iteration 60 : 0.01284743845462799
+Loss at iteration 70 : 0.007515557575970888
+Loss at iteration 80 : 0.0076878871768713
+Loss at iteration 90 : 0.0066709560342133045
+Loss at iteration 100 : 0.007732326630502939
+Loss at iteration 110 : 0.009567045606672764
+Loss at iteration 120 : 0.010746506042778492
+The SSIM Value is: 0.8248321453730265
+The PSNR Value is: 21.62223262786865
+the epoch is: 46
+Loss at iteration 10 : 0.008037840016186237
+Loss at iteration 20 : 0.011391887441277504
+Loss at iteration 30 : 0.011039596982300282
+Loss at iteration 40 : 0.009609110653400421
+Loss at iteration 50 : 0.010269271209836006
+Loss at iteration 60 : 0.008337308652698994
+Loss at iteration 70 : 0.010635891929268837
+Loss at iteration 80 : 0.01171819306910038
+Loss at iteration 90 : 0.011158820241689682
+Loss at iteration 100 : 0.00580030819401145
+Loss at iteration 110 : 0.009064769372344017
+Loss at iteration 120 : 0.009514409117400646
+The SSIM Value is: 0.8168014883995056
+The PSNR Value is: 20.748906135559082
+the epoch is: 47
+Loss at iteration 10 : 0.009160407818853855
+Loss at iteration 20 : 0.008333586156368256
+Loss at iteration 30 : 0.006862317211925983
+Loss at iteration 40 : 0.018443219363689423
+Loss at iteration 50 : 0.0067784590646624565
+Loss at iteration 60 : 0.009677129797637463
+Loss at iteration 70 : 0.010714149102568626
+Loss at iteration 80 : 0.007148809265345335
+Loss at iteration 90 : 0.004860673099756241
+Loss at iteration 100 : 0.00962261762470007
+Loss at iteration 110 : 0.006403064820915461
+Loss at iteration 120 : 0.005959026515483856
+The SSIM Value is: 0.8266619761784871
+The PSNR Value is: 21.570006942749025
+the epoch is: 48
+Loss at iteration 10 : 0.006255637854337692
+Loss at iteration 20 : 0.006390774622559547
+Loss at iteration 30 : 0.010634156875312328
+Loss at iteration 40 : 0.01002495363354683
+Loss at iteration 50 : 0.011030664667487144
+Loss at iteration 60 : 0.008845308795571327
+Loss at iteration 70 : 0.009878778830170631
+Loss at iteration 80 : 0.006895590107887983
+Loss at iteration 90 : 0.008693688549101353
+Loss at iteration 100 : 0.007810644339770079
+Loss at iteration 110 : 0.006728304550051689
+Loss at iteration 120 : 0.005849597975611687
+The SSIM Value is: 0.8289859533309937
+The PSNR Value is: 21.47477798461914
+the epoch is: 49
+Loss at iteration 10 : 0.006294914521276951
+Loss at iteration 20 : 0.013320152647793293
+Loss at iteration 30 : 0.009744558483362198
+Loss at iteration 40 : 0.008500062860548496
+Loss at iteration 50 : 0.007110430859029293
+Loss at iteration 60 : 0.013711672276258469
+Loss at iteration 70 : 0.01243752520531416
+Loss at iteration 80 : 0.006205941550433636
+Loss at iteration 90 : 0.00975133664906025
+Loss at iteration 100 : 0.007357756607234478
+Loss at iteration 110 : 0.012918504886329174
+Loss at iteration 120 : 0.009574810974299908
+The SSIM Value is: 0.8200516184171041
+The PSNR Value is: 21.17517744700114
+the epoch is: 50
+Loss at iteration 10 : 0.007003874517977238
+Loss at iteration 20 : 0.008582029491662979
+Loss at iteration 30 : 0.005438223946839571
+Loss at iteration 40 : 0.01245863363146782
+Loss at iteration 50 : 0.006427600979804993
+Loss at iteration 60 : 0.010873607359826565
+Loss at iteration 70 : 0.008229779079556465
+Loss at iteration 80 : 0.010171978734433651
+Loss at iteration 90 : 0.010851353406906128
+Loss at iteration 100 : 0.007015629671514034
+Loss at iteration 110 : 0.009179189801216125
+Loss at iteration 120 : 0.007100564893335104
+The SSIM Value is: 0.8247118592262268
+The PSNR Value is: 21.5751833597819
+the epoch is: 51
+Loss at iteration 10 : 0.014229103922843933
+Loss at iteration 20 : 0.0073215533047914505
+Loss at iteration 30 : 0.0062944889068603516
+Loss at iteration 40 : 0.007142273709177971
+Loss at iteration 50 : 0.0082973912358284
+Loss at iteration 60 : 0.011266394518315792
+Loss at iteration 70 : 0.011272748000919819
+Loss at iteration 80 : 0.009974304586648941
+Loss at iteration 90 : 0.011290302500128746
+Loss at iteration 100 : 0.008581607602536678
+Loss at iteration 110 : 0.006679637357592583
+Loss at iteration 120 : 0.012499725446105003
+The SSIM Value is: 0.8183394193649292
+The PSNR Value is: 21.00727036794027
+the epoch is: 52
+Loss at iteration 10 : 0.011102721095085144
+Loss at iteration 20 : 0.005560216959565878
+Loss at iteration 30 : 0.008861461654305458
+Loss at iteration 40 : 0.015827111899852753
+Loss at iteration 50 : 0.008956472389400005
+Loss at iteration 60 : 0.008280728943645954
+Loss at iteration 70 : 0.007887819781899452
+Loss at iteration 80 : 0.012382607907056808
+Loss at iteration 90 : 0.014317216351628304
+Loss at iteration 100 : 0.012259137816727161
+Loss at iteration 110 : 0.014057260937988758
+Loss at iteration 120 : 0.0065513066947460175
+The SSIM Value is: 0.8132827798525493
+The PSNR Value is: 19.89974619547526
+the epoch is: 53
+Loss at iteration 10 : 0.007380340714007616
+Loss at iteration 20 : 0.008793586865067482
+Loss at iteration 30 : 0.013517620973289013
+Loss at iteration 40 : 0.008624936453998089
+Loss at iteration 50 : 0.009490527212619781
+Loss at iteration 60 : 0.009728425182402134
+Loss at iteration 70 : 0.0129631906747818
+Loss at iteration 80 : 0.010564152151346207
+Loss at iteration 90 : 0.008755702525377274
+Loss at iteration 100 : 0.010728118941187859
+Loss at iteration 110 : 0.00797133706510067
+Loss at iteration 120 : 0.013565776869654655
+The SSIM Value is: 0.8134122530619303
+The PSNR Value is: 19.852231725056967
+the epoch is: 54
+Loss at iteration 10 : 0.012828195467591286
+Loss at iteration 20 : 0.005888012237846851
+Loss at iteration 30 : 0.0055458578281104565
+Loss at iteration 40 : 0.008573890663683414
+Loss at iteration 50 : 0.015538573265075684
+Loss at iteration 60 : 0.01014805119484663
+Loss at iteration 70 : 0.007728596217930317
+Loss at iteration 80 : 0.007034904323518276
+Loss at iteration 90 : 0.008419586345553398
+Loss at iteration 100 : 0.00863713026046753
+Loss at iteration 110 : 0.011011375114321709
+Loss at iteration 120 : 0.007952041923999786
+The SSIM Value is: 0.8249379913012187
+The PSNR Value is: 21.357303174336753
+the epoch is: 55
+Loss at iteration 10 : 0.013010218739509583
+Loss at iteration 20 : 0.01044858992099762
+Loss at iteration 30 : 0.010128922760486603
+Loss at iteration 40 : 0.014789827167987823
+Loss at iteration 50 : 0.006615502759814262
+Loss at iteration 60 : 0.011284411884844303
+Loss at iteration 70 : 0.008939698338508606
+Loss at iteration 80 : 0.006292525678873062
+Loss at iteration 90 : 0.008129626512527466
+Loss at iteration 100 : 0.005869119428098202
+Loss at iteration 110 : 0.0085043516010046
+Loss at iteration 120 : 0.006992481183260679
+The SSIM Value is: 0.8243058919906616
+The PSNR Value is: 21.230333137512208
+the epoch is: 56
+Loss at iteration 10 : 0.007759666070342064
+Loss at iteration 20 : 0.006997966673225164
+Loss at iteration 30 : 0.008191512897610664
+Loss at iteration 40 : 0.007957478053867817
+Loss at iteration 50 : 0.0105529073625803
+Loss at iteration 60 : 0.006389467511326075
+Loss at iteration 70 : 0.007753764744848013
+Loss at iteration 80 : 0.01159975677728653
+Loss at iteration 90 : 0.005786235444247723
+Loss at iteration 100 : 0.018597740679979324
+Loss at iteration 110 : 0.008489936590194702
+Loss at iteration 120 : 0.007073594257235527
+The SSIM Value is: 0.8280978719393413
+The PSNR Value is: 21.02001864115397
+the epoch is: 57
+Loss at iteration 10 : 0.013704225420951843
+Loss at iteration 20 : 0.008410284295678139
+Loss at iteration 30 : 0.010869113728404045
+Loss at iteration 40 : 0.009383623488247395
+Loss at iteration 50 : 0.01247114222496748
+Loss at iteration 60 : 0.00761838536709547
+Loss at iteration 70 : 0.010198554955422878
+Loss at iteration 80 : 0.012033743783831596
+Loss at iteration 90 : 0.008055279962718487
+Loss at iteration 100 : 0.0076631540432572365
+Loss at iteration 110 : 0.009146710857748985
+Loss at iteration 120 : 0.01142827421426773
+The SSIM Value is: 0.8251545906066895
+The PSNR Value is: 21.301564598083495
+the epoch is: 58
+Loss at iteration 10 : 0.011539963074028492
+Loss at iteration 20 : 0.009536992758512497
+Loss at iteration 30 : 0.004160297103226185
+Loss at iteration 40 : 0.008339493535459042
+Loss at iteration 50 : 0.012131641618907452
+Loss at iteration 60 : 0.010915679857134819
+Loss at iteration 70 : 0.006795031018555164
+Loss at iteration 80 : 0.013866544701159
+Loss at iteration 90 : 0.009177369065582752
+Loss at iteration 100 : 0.012908782809972763
+Loss at iteration 110 : 0.007339359261095524
+Loss at iteration 120 : 0.006297157146036625
+The SSIM Value is: 0.8202446738878886
+The PSNR Value is: 21.078157424926758
+the epoch is: 59
+Loss at iteration 10 : 0.012050336226820946
+Loss at iteration 20 : 0.009403676725924015
+Loss at iteration 30 : 0.008712133392691612
+Loss at iteration 40 : 0.010337356477975845
+Loss at iteration 50 : 0.010390321724116802
+Loss at iteration 60 : 0.010618245229125023
+Loss at iteration 70 : 0.009222777560353279
+Loss at iteration 80 : 0.008553686551749706
+Loss at iteration 90 : 0.006664099171757698
+Loss at iteration 100 : 0.00804632157087326
+Loss at iteration 110 : 0.007954600267112255
+Loss at iteration 120 : 0.008560633286833763
+The SSIM Value is: 0.8317242503166199
+The PSNR Value is: 21.730689112345377
+the epoch is: 60
+Loss at iteration 10 : 0.010504594072699547
+Loss at iteration 20 : 0.009745591320097446
+Loss at iteration 30 : 0.006712170783430338
+Loss at iteration 40 : 0.010635699145495892
+Loss at iteration 50 : 0.006452453322708607
+Loss at iteration 60 : 0.007660795468837023
+Loss at iteration 70 : 0.008579961955547333
+Loss at iteration 80 : 0.010957951657474041
+Loss at iteration 90 : 0.005617549642920494
+Loss at iteration 100 : 0.017257370054721832
+Loss at iteration 110 : 0.006273510865867138
+Loss at iteration 120 : 0.010554864071309566
+The SSIM Value is: 0.8286743243535359
+The PSNR Value is: 21.91473642985026
+the epoch is: 61
+Loss at iteration 10 : 0.007250213995575905
+Loss at iteration 20 : 0.007510253693908453
+Loss at iteration 30 : 0.009849919937551022
+Loss at iteration 40 : 0.006746607832610607
+Loss at iteration 50 : 0.005682149436324835
+Loss at iteration 60 : 0.009372347965836525
+Loss at iteration 70 : 0.006425170693546534
+Loss at iteration 80 : 0.012846570461988449
+Loss at iteration 90 : 0.012591840699315071
+Loss at iteration 100 : 0.01224709302186966
+Loss at iteration 110 : 0.009930364787578583
+Loss at iteration 120 : 0.01006537675857544
+The SSIM Value is: 0.8331534703572591
+The PSNR Value is: 21.560463778177898
+the epoch is: 62
+Loss at iteration 10 : 0.010092341341078281
+Loss at iteration 20 : 0.00995158962905407
+Loss at iteration 30 : 0.00717452447861433
+Loss at iteration 40 : 0.007372250314801931
+Loss at iteration 50 : 0.007557046599686146
+Loss at iteration 60 : 0.0048238737508654594
+Loss at iteration 70 : 0.012998162768781185
+Loss at iteration 80 : 0.007998498156666756
+Loss at iteration 90 : 0.012556065805256367
+Loss at iteration 100 : 0.008138447999954224
+Loss at iteration 110 : 0.014178037643432617
+Loss at iteration 120 : 0.012242838740348816
+The SSIM Value is: 0.8119688351949056
+The PSNR Value is: 19.88854700724284
+the epoch is: 63
+Loss at iteration 10 : 0.012270129285752773
+Loss at iteration 20 : 0.009665041230618954
+Loss at iteration 30 : 0.009400353766977787
+Loss at iteration 40 : 0.008116237819194794
+Loss at iteration 50 : 0.009948048740625381
+Loss at iteration 60 : 0.012978823855519295
+Loss at iteration 70 : 0.008222577162086964
+Loss at iteration 80 : 0.009638232178986073
+Loss at iteration 90 : 0.006324948742985725
+Loss at iteration 100 : 0.008048756048083305
+Loss at iteration 110 : 0.008326167240738869
+Loss at iteration 120 : 0.012790193781256676
+The SSIM Value is: 0.825709068775177
+The PSNR Value is: 21.56255842844645
+the epoch is: 64
+Loss at iteration 10 : 0.00868286844342947
+Loss at iteration 20 : 0.009121296927332878
+Loss at iteration 30 : 0.014942584559321404
+Loss at iteration 40 : 0.006770407781004906
+Loss at iteration 50 : 0.005958843510597944
+Loss at iteration 60 : 0.007797346916049719
+Loss at iteration 70 : 0.010871855542063713
+Loss at iteration 80 : 0.010912487283349037
+Loss at iteration 90 : 0.010379192419350147
+Loss at iteration 100 : 0.010832671076059341
+Loss at iteration 110 : 0.015576975420117378
+Loss at iteration 120 : 0.011949775740504265
+The SSIM Value is: 0.8082498073577881
+The PSNR Value is: 19.99027010599772
+the epoch is: 65
+Loss at iteration 10 : 0.00934136938303709
+Loss at iteration 20 : 0.008732125163078308
+Loss at iteration 30 : 0.009595271199941635
+Loss at iteration 40 : 0.0147767448797822
+Loss at iteration 50 : 0.01120347622781992
+Loss at iteration 60 : 0.008033803664147854
+Loss at iteration 70 : 0.008619947358965874
+Loss at iteration 80 : 0.008109831251204014
+Loss at iteration 90 : 0.008143199607729912
+Loss at iteration 100 : 0.013657214120030403
+Loss at iteration 110 : 0.008103492669761181
+Loss at iteration 120 : 0.012629980221390724
+The SSIM Value is: 0.8209945837656657
+The PSNR Value is: 21.38718490600586
+the epoch is: 66
+Loss at iteration 10 : 0.005900286138057709
+Loss at iteration 20 : 0.009334002621471882
+Loss at iteration 30 : 0.010352173820137978
+Loss at iteration 40 : 0.010817715898156166
+Loss at iteration 50 : 0.009383225813508034
+Loss at iteration 60 : 0.009684372693300247
+Loss at iteration 70 : 0.013014612719416618
+Loss at iteration 80 : 0.007045865524560213
+Loss at iteration 90 : 0.008723996579647064
+Loss at iteration 100 : 0.013497894629836082
+Loss at iteration 110 : 0.003481778781861067
+Loss at iteration 120 : 0.009380162693560123
+The SSIM Value is: 0.8200398564338685
+The PSNR Value is: 20.66902758280436
+the epoch is: 67
+Loss at iteration 10 : 0.004569767042994499
+Loss at iteration 20 : 0.006678026635199785
+Loss at iteration 30 : 0.011799726635217667
+Loss at iteration 40 : 0.009466863237321377
+Loss at iteration 50 : 0.013557670637965202
+Loss at iteration 60 : 0.008141000755131245
+Loss at iteration 70 : 0.00916971080005169
+Loss at iteration 80 : 0.006913593038916588
+Loss at iteration 90 : 0.010840602219104767
+Loss at iteration 100 : 0.005401157308369875
+Loss at iteration 110 : 0.00719063077121973
+Loss at iteration 120 : 0.011603126302361488
+The SSIM Value is: 0.828431491057078
+The PSNR Value is: 21.787794812520346
+the epoch is: 68
+Loss at iteration 10 : 0.016512490808963776
+Loss at iteration 20 : 0.010011153295636177
+Loss at iteration 30 : 0.006489688064903021
+Loss at iteration 40 : 0.00782747846096754
+Loss at iteration 50 : 0.013196432963013649
+Loss at iteration 60 : 0.011578205972909927
+Loss at iteration 70 : 0.008856944739818573
+Loss at iteration 80 : 0.004609077237546444
+Loss at iteration 90 : 0.007431406527757645
+Loss at iteration 100 : 0.012337587773799896
+Loss at iteration 110 : 0.007185468450188637
+Loss at iteration 120 : 0.008930906653404236
+The SSIM Value is: 0.8220010002454122
+The PSNR Value is: 20.65844980875651
+the epoch is: 69
+Loss at iteration 10 : 0.006335308309644461
+Loss at iteration 20 : 0.005789513699710369
+Loss at iteration 30 : 0.010195127688348293
+Loss at iteration 40 : 0.008665901608765125
+Loss at iteration 50 : 0.0070135812275111675
+Loss at iteration 60 : 0.019717052578926086
+Loss at iteration 70 : 0.010352101176977158
+Loss at iteration 80 : 0.006134756840765476
+Loss at iteration 90 : 0.011343670077621937
+Loss at iteration 100 : 0.006908685900270939
+Loss at iteration 110 : 0.008592166937887669
+Loss at iteration 120 : 0.011669361963868141
+The SSIM Value is: 0.825131364663442
+The PSNR Value is: 21.211340840657552
+the epoch is: 70
+Loss at iteration 10 : 0.0076710255816578865
+Loss at iteration 20 : 0.007778721395879984
+Loss at iteration 30 : 0.008083837106823921
+Loss at iteration 40 : 0.007373361382633448
+Loss at iteration 50 : 0.006726458668708801
+Loss at iteration 60 : 0.008326039649546146
+Loss at iteration 70 : 0.00742587074637413
+Loss at iteration 80 : 0.009267733432352543
+Loss at iteration 90 : 0.011390517465770245
+Loss at iteration 100 : 0.015460390597581863
+Loss at iteration 110 : 0.006559629458934069
+Loss at iteration 120 : 0.004464386496692896
+The SSIM Value is: 0.8349702715873718
+The PSNR Value is: 22.080282592773436
+the epoch is: 71
+Loss at iteration 10 : 0.007632097229361534
+Loss at iteration 20 : 0.008607970550656319
+Loss at iteration 30 : 0.008498774841427803
+Loss at iteration 40 : 0.013208342716097832
+Loss at iteration 50 : 0.014641876332461834
+Loss at iteration 60 : 0.008909646421670914
+Loss at iteration 70 : 0.00670991837978363
+Loss at iteration 80 : 0.008455692790448666
+Loss at iteration 90 : 0.009445557370781898
+Loss at iteration 100 : 0.009020394645631313
+Loss at iteration 110 : 0.010382934473454952
+Loss at iteration 120 : 0.01201881468296051
+The SSIM Value is: 0.8233683586120606
+The PSNR Value is: 21.416862869262694
+the epoch is: 72
+Loss at iteration 10 : 0.009126005694270134
+Loss at iteration 20 : 0.008125393651425838
+Loss at iteration 30 : 0.012233175337314606
+Loss at iteration 40 : 0.006528513040393591
+Loss at iteration 50 : 0.009805051609873772
+Loss at iteration 60 : 0.007320049684494734
+Loss at iteration 70 : 0.009310505352914333
+Loss at iteration 80 : 0.004837630316615105
+Loss at iteration 90 : 0.007268630433827639
+Loss at iteration 100 : 0.008314590901136398
+Loss at iteration 110 : 0.007469188421964645
+Loss at iteration 120 : 0.010114739648997784
+The SSIM Value is: 0.8287813226381938
+The PSNR Value is: 21.650597190856935
+the epoch is: 73
+Loss at iteration 10 : 0.007433635648339987
+Loss at iteration 20 : 0.008429545909166336
+Loss at iteration 30 : 0.00842338614165783
+Loss at iteration 40 : 0.00855275895446539
+Loss at iteration 50 : 0.009313592687249184
+Loss at iteration 60 : 0.005934536457061768
+Loss at iteration 70 : 0.00557829812169075
+Loss at iteration 80 : 0.009137165732681751
+Loss at iteration 90 : 0.011279791593551636
+Loss at iteration 100 : 0.008932337164878845
+Loss at iteration 110 : 0.009942195378243923
+Loss at iteration 120 : 0.00802745670080185
+The SSIM Value is: 0.8327332774798075
+The PSNR Value is: 21.905615234375
+the epoch is: 74
+Loss at iteration 10 : 0.011025302112102509
+Loss at iteration 20 : 0.00560761708766222
+Loss at iteration 30 : 0.006067296955734491
+Loss at iteration 40 : 0.011005804874002934
+Loss at iteration 50 : 0.012715824879705906
+Loss at iteration 60 : 0.007638772949576378
+Loss at iteration 70 : 0.007066923659294844
+Loss at iteration 80 : 0.013291046023368835
+Loss at iteration 90 : 0.007745480630546808
+Loss at iteration 100 : 0.004901283420622349
+Loss at iteration 110 : 0.0064604803919792175
+Loss at iteration 120 : 0.007126908749341965
+The SSIM Value is: 0.8305370688438416
+The PSNR Value is: 21.608890533447266
+the epoch is: 75
+Loss at iteration 10 : 0.005257956217974424
+Loss at iteration 20 : 0.007275610230863094
+Loss at iteration 30 : 0.00755649246275425
+Loss at iteration 40 : 0.009175797924399376
+Loss at iteration 50 : 0.010434634052217007
+Loss at iteration 60 : 0.006237871944904327
+Loss at iteration 70 : 0.004367809277027845
+Loss at iteration 80 : 0.010543913580477238
+Loss at iteration 90 : 0.009904351085424423
+Loss at iteration 100 : 0.007487017661333084
+Loss at iteration 110 : 0.019117798656225204
+Loss at iteration 120 : 0.009162094444036484
+The SSIM Value is: 0.8224339405695598
+The PSNR Value is: 20.867179044087727
+the epoch is: 76
+Loss at iteration 10 : 0.009288659319281578
+Loss at iteration 20 : 0.007844519801437855
+Loss at iteration 30 : 0.008553961291909218
+Loss at iteration 40 : 0.007774716708809137
+Loss at iteration 50 : 0.01081435102969408
+Loss at iteration 60 : 0.007088951766490936
+Loss at iteration 70 : 0.022941838949918747
+Loss at iteration 80 : 0.007505971472710371
+Loss at iteration 90 : 0.0077975778840482235
+Loss at iteration 100 : 0.010130885057151318
+Loss at iteration 110 : 0.013174988329410553
+Loss at iteration 120 : 0.007011136040091515
+The SSIM Value is: 0.8174282391866048
+The PSNR Value is: 20.748381487528484
+the epoch is: 77
+Loss at iteration 10 : 0.0073288241401314735
+Loss at iteration 20 : 0.008087986148893833
+Loss at iteration 30 : 0.006229238584637642
+Loss at iteration 40 : 0.009955350309610367
+Loss at iteration 50 : 0.009573603048920631
+Loss at iteration 60 : 0.009791359305381775
+Loss at iteration 70 : 0.006550427060574293
+Loss at iteration 80 : 0.006250884849578142
+Loss at iteration 90 : 0.008759777061641216
+Loss at iteration 100 : 0.006023002788424492
+Loss at iteration 110 : 0.008137895725667477
+Loss at iteration 120 : 0.01259853970259428
+The SSIM Value is: 0.8172384182612101
+The PSNR Value is: 20.752345657348634
+the epoch is: 78
+Loss at iteration 10 : 0.020410386845469475
+Loss at iteration 20 : 0.01222538948059082
+Loss at iteration 30 : 0.0060803634114563465
+Loss at iteration 40 : 0.008926546201109886
+Loss at iteration 50 : 0.007769003976136446
+Loss at iteration 60 : 0.005683464929461479
+Loss at iteration 70 : 0.008053010329604149
+Loss at iteration 80 : 0.008327130228281021
+Loss at iteration 90 : 0.007537810131907463
+Loss at iteration 100 : 0.010137969627976418
+Loss at iteration 110 : 0.007585090585052967
+Loss at iteration 120 : 0.01068807952105999
+The SSIM Value is: 0.8290313720703125
+The PSNR Value is: 21.576630528767904
+the epoch is: 79
+Loss at iteration 10 : 0.008631457574665546
+Loss at iteration 20 : 0.014606368727982044
+Loss at iteration 30 : 0.007372352294623852
+Loss at iteration 40 : 0.010769196785986423
+Loss at iteration 50 : 0.012378904037177563
+Loss at iteration 60 : 0.009433098137378693
+Loss at iteration 70 : 0.008134829811751842
+Loss at iteration 80 : 0.007741367910057306
+Loss at iteration 90 : 0.01074962504208088
+Loss at iteration 100 : 0.011817220598459244
+Loss at iteration 110 : 0.012360927648842335
+Loss at iteration 120 : 0.008960201404988766
+The SSIM Value is: 0.827172601222992
+The PSNR Value is: 21.95198631286621
+the epoch is: 80
+Loss at iteration 10 : 0.016342049464583397
+Loss at iteration 20 : 0.004589634947478771
+Loss at iteration 30 : 0.01215127669274807
+Loss at iteration 40 : 0.007421199698001146
+Loss at iteration 50 : 0.005929870996624231
+Loss at iteration 60 : 0.011095395311713219
+Loss at iteration 70 : 0.010596909560263157
+Loss at iteration 80 : 0.009745306335389614
+Loss at iteration 90 : 0.006819545291364193
+Loss at iteration 100 : 0.009412760846316814
+Loss at iteration 110 : 0.008757469244301319
+Loss at iteration 120 : 0.01631774753332138
+The SSIM Value is: 0.8169665455818176
+The PSNR Value is: 20.766888364156088
+the epoch is: 81
+Loss at iteration 10 : 0.010638173669576645
+Loss at iteration 20 : 0.006394314579665661
+Loss at iteration 30 : 0.005507112480700016
+Loss at iteration 40 : 0.010931667871773243
+Loss at iteration 50 : 0.011122534051537514
+Loss at iteration 60 : 0.0067312452010810375
+Loss at iteration 70 : 0.00618250947445631
+Loss at iteration 80 : 0.007900825701653957
+Loss at iteration 90 : 0.006803738884627819
+Loss at iteration 100 : 0.005951285362243652
+Loss at iteration 110 : 0.012919740751385689
+Loss at iteration 120 : 0.006712727248668671
+The SSIM Value is: 0.8254568616549174
+The PSNR Value is: 21.908876800537108
+the epoch is: 82
+Loss at iteration 10 : 0.009239353239536285
+Loss at iteration 20 : 0.007118251174688339
+Loss at iteration 30 : 0.010419376194477081
+Loss at iteration 40 : 0.010715687647461891
+Loss at iteration 50 : 0.009237360209226608
+Loss at iteration 60 : 0.006958097219467163
+Loss at iteration 70 : 0.008477525785565376
+Loss at iteration 80 : 0.010214129462838173
+Loss at iteration 90 : 0.009531236253678799
+Loss at iteration 100 : 0.008999768644571304
+Loss at iteration 110 : 0.007993046194314957
+Loss at iteration 120 : 0.008133862167596817
+The SSIM Value is: 0.8299619674682617
+The PSNR Value is: 22.05976104736328
+the epoch is: 83
+Loss at iteration 10 : 0.01307082362473011
+Loss at iteration 20 : 0.019752586260437965
+Loss at iteration 30 : 0.010958987288177013
+Loss at iteration 40 : 0.013861613348126411
+Loss at iteration 50 : 0.005737219005823135
+Loss at iteration 60 : 0.007513951510190964
+Loss at iteration 70 : 0.01519698929041624
+Loss at iteration 80 : 0.009101302362978458
+Loss at iteration 90 : 0.007274557836353779
+Loss at iteration 100 : 0.00816587544977665
+Loss at iteration 110 : 0.010276085697114468
+Loss at iteration 120 : 0.006808194797486067
+The SSIM Value is: 0.8276714563369751
+The PSNR Value is: 22.0578919728597
+the epoch is: 84
+Loss at iteration 10 : 0.009273320436477661
+Loss at iteration 20 : 0.012750761583447456
+Loss at iteration 30 : 0.008721981197595596
+Loss at iteration 40 : 0.008691653609275818
+Loss at iteration 50 : 0.009817587211728096
+Loss at iteration 60 : 0.0060552749782800674
+Loss at iteration 70 : 0.014120264910161495
+Loss at iteration 80 : 0.013956648297607899
+Loss at iteration 90 : 0.007420208305120468
+Loss at iteration 100 : 0.01467896904796362
+Loss at iteration 110 : 0.0072397589683532715
+Loss at iteration 120 : 0.00979362428188324
+The SSIM Value is: 0.827966312567393
+The PSNR Value is: 21.527706718444826
+the epoch is: 85
+Loss at iteration 10 : 0.010539190843701363
+Loss at iteration 20 : 0.010067958384752274
+Loss at iteration 30 : 0.01115049235522747
+Loss at iteration 40 : 0.009852349758148193
+Loss at iteration 50 : 0.0074257617816329
+Loss at iteration 60 : 0.008834898471832275
+Loss at iteration 70 : 0.00818916130810976
+Loss at iteration 80 : 0.01489193644374609
+Loss at iteration 90 : 0.008983222767710686
+Loss at iteration 100 : 0.00672359112650156
+Loss at iteration 110 : 0.009416750632226467
+Loss at iteration 120 : 0.00882085133343935
+The SSIM Value is: 0.8124432643254598
+The PSNR Value is: 20.90135052998861
+the epoch is: 86
+Loss at iteration 10 : 0.009256033226847649
+Loss at iteration 20 : 0.009872039780020714
+Loss at iteration 30 : 0.009028078056871891
+Loss at iteration 40 : 0.009671442210674286
+Loss at iteration 50 : 0.00869060680270195
+Loss at iteration 60 : 0.00532888900488615
+Loss at iteration 70 : 0.005964719690382481
+Loss at iteration 80 : 0.01076040230691433
+Loss at iteration 90 : 0.005733283702284098
+Loss at iteration 100 : 0.006243569776415825
+Loss at iteration 110 : 0.008459572680294514
+Loss at iteration 120 : 0.008774428628385067
+The SSIM Value is: 0.8145422657330831
+The PSNR Value is: 21.000749651590983
+the epoch is: 87
+Loss at iteration 10 : 0.011531995609402657
+Loss at iteration 20 : 0.00773653807118535
+Loss at iteration 30 : 0.013074924238026142
+Loss at iteration 40 : 0.010958513244986534
+Loss at iteration 50 : 0.008677920326590538
+Loss at iteration 60 : 0.008266689255833626
+Loss at iteration 70 : 0.005914118606597185
+Loss at iteration 80 : 0.00616876594722271
+Loss at iteration 90 : 0.00846762116998434
+Loss at iteration 100 : 0.013451254926621914
+Loss at iteration 110 : 0.01124013401567936
+Loss at iteration 120 : 0.009044314734637737
+The SSIM Value is: 0.82623264392217
+The PSNR Value is: 21.61166655222575
+the epoch is: 88
+Loss at iteration 10 : 0.00839774776250124
+Loss at iteration 20 : 0.012132054194808006
+Loss at iteration 30 : 0.010785451158881187
+Loss at iteration 40 : 0.009355307556688786
+Loss at iteration 50 : 0.012121791020035744
+Loss at iteration 60 : 0.006969943642616272
+Loss at iteration 70 : 0.006703718099743128
+Loss at iteration 80 : 0.006796730682253838
+Loss at iteration 90 : 0.007466534618288279
+Loss at iteration 100 : 0.007387098856270313
+Loss at iteration 110 : 0.01155234593898058
+Loss at iteration 120 : 0.01030377484858036
+The SSIM Value is: 0.81680721839269
+The PSNR Value is: 20.90090815226237
+the epoch is: 89
+Loss at iteration 10 : 0.013059969060122967
+Loss at iteration 20 : 0.013432217761874199
+Loss at iteration 30 : 0.008540051989257336
+Loss at iteration 40 : 0.014944236725568771
+Loss at iteration 50 : 0.009953062981367111
+Loss at iteration 60 : 0.009577097371220589
+Loss at iteration 70 : 0.007895059883594513
+Loss at iteration 80 : 0.009159852750599384
+Loss at iteration 90 : 0.007906660437583923
+Loss at iteration 100 : 0.00936144683510065
+Loss at iteration 110 : 0.005783728323876858
+Loss at iteration 120 : 0.005944952834397554
+The SSIM Value is: 0.8151298761367798
+The PSNR Value is: 20.968053245544432
+the epoch is: 90
+Loss at iteration 10 : 0.007869699969887733
+Loss at iteration 20 : 0.006542119663208723
+Loss at iteration 30 : 0.009140080772340298
+Loss at iteration 40 : 0.013979794457554817
+Loss at iteration 50 : 0.006266577169299126
+Loss at iteration 60 : 0.006893187761306763
+Loss at iteration 70 : 0.00881878100335598
+Loss at iteration 80 : 0.008611287921667099
+Loss at iteration 90 : 0.010066301561892033
+Loss at iteration 100 : 0.009632525965571404
+Loss at iteration 110 : 0.011719197034835815
+Loss at iteration 120 : 0.010987067595124245
+The SSIM Value is: 0.8328593254089356
+The PSNR Value is: 21.897289021809897
+the epoch is: 91
+Loss at iteration 10 : 0.01347177941352129
+Loss at iteration 20 : 0.007792919874191284
+Loss at iteration 30 : 0.01555117592215538
+Loss at iteration 40 : 0.007246139459311962
+Loss at iteration 50 : 0.010142714716494083
+Loss at iteration 60 : 0.012174896895885468
+Loss at iteration 70 : 0.009537643752992153
+Loss at iteration 80 : 0.011154191568493843
+Loss at iteration 90 : 0.008185116574168205
+Loss at iteration 100 : 0.013812439516186714
+Loss at iteration 110 : 0.00861700251698494
+Loss at iteration 120 : 0.008676169440150261
+The SSIM Value is: 0.8245143214861552
+The PSNR Value is: 21.133598391215006
+the epoch is: 92
+Loss at iteration 10 : 0.005245286040008068
+Loss at iteration 20 : 0.00785901676863432
+Loss at iteration 30 : 0.00829294417053461
+Loss at iteration 40 : 0.0065102227963507175
+Loss at iteration 50 : 0.009693508967757225
+Loss at iteration 60 : 0.007730778306722641
+Loss at iteration 70 : 0.009566065855324268
+Loss at iteration 80 : 0.005206751171499491
+Loss at iteration 90 : 0.010304620489478111
+Loss at iteration 100 : 0.006701742298901081
+Loss at iteration 110 : 0.009938673116266727
+Loss at iteration 120 : 0.006242771632969379
+The SSIM Value is: 0.8317501624425252
+The PSNR Value is: 21.76986878712972
+the epoch is: 93
+Loss at iteration 10 : 0.006140906363725662
+Loss at iteration 20 : 0.007244713604450226
+Loss at iteration 30 : 0.011126109398901463
+Loss at iteration 40 : 0.006278453394770622
+Loss at iteration 50 : 0.007081480231136084
+Loss at iteration 60 : 0.008532382547855377
+Loss at iteration 70 : 0.008426236920058727
+Loss at iteration 80 : 0.006735215894877911
+Loss at iteration 90 : 0.010490539483726025
+Loss at iteration 100 : 0.008511641062796116
+Loss at iteration 110 : 0.010651633143424988
+Loss at iteration 120 : 0.009842678904533386
+The SSIM Value is: 0.822987151145935
+The PSNR Value is: 21.461411666870116
+the epoch is: 94
+Loss at iteration 10 : 0.009865467436611652
+Loss at iteration 20 : 0.01573597453534603
+Loss at iteration 30 : 0.010145206935703754
+Loss at iteration 40 : 0.008009943179786205
+Loss at iteration 50 : 0.015191061422228813
+Loss at iteration 60 : 0.007594365160912275
+Loss at iteration 70 : 0.007460746914148331
+Loss at iteration 80 : 0.011770736426115036
+Loss at iteration 90 : 0.012445541098713875
+Loss at iteration 100 : 0.012418285943567753
+Loss at iteration 110 : 0.006733420304954052
+Loss at iteration 120 : 0.012432761490345001
+The SSIM Value is: 0.8098006963729858
+The PSNR Value is: 19.604219818115233
+the epoch is: 95
+Loss at iteration 10 : 0.008646677248179913
+Loss at iteration 20 : 0.013576030731201172
+Loss at iteration 30 : 0.006042889319360256
+Loss at iteration 40 : 0.007805982138961554
+Loss at iteration 50 : 0.011145930737257004
+Loss at iteration 60 : 0.006756948307156563
+Loss at iteration 70 : 0.010884379036724567
+Loss at iteration 80 : 0.006181742064654827
+Loss at iteration 90 : 0.010094895958900452
+Loss at iteration 100 : 0.011477779597043991
+Loss at iteration 110 : 0.01148480735719204
+Loss at iteration 120 : 0.014152097515761852
+The SSIM Value is: 0.8250356515248617
+The PSNR Value is: 21.968975448608397
+the epoch is: 96
+Loss at iteration 10 : 0.009885448962450027
+Loss at iteration 20 : 0.008198882453143597
+Loss at iteration 30 : 0.008489147759974003
+Loss at iteration 40 : 0.009734085761010647
+Loss at iteration 50 : 0.01062171533703804
+Loss at iteration 60 : 0.008201918564736843
+Loss at iteration 70 : 0.01062829326838255
+Loss at iteration 80 : 0.007920005358755589
+Loss at iteration 90 : 0.007057459093630314
+Loss at iteration 100 : 0.011559993028640747
+Loss at iteration 110 : 0.006517032161355019
+Loss at iteration 120 : 0.009288529865443707
+The SSIM Value is: 0.8235518376032511
+The PSNR Value is: 21.389718945821127
+the epoch is: 97
+Loss at iteration 10 : 0.011045281775295734
+Loss at iteration 20 : 0.009450534358620644
+Loss at iteration 30 : 0.00782330334186554
+Loss at iteration 40 : 0.010454028844833374
+Loss at iteration 50 : 0.011233857832849026
+Loss at iteration 60 : 0.011959310621023178
+Loss at iteration 70 : 0.006744334939867258
+Loss at iteration 80 : 0.009283245541155338
+Loss at iteration 90 : 0.007992669008672237
+Loss at iteration 100 : 0.010103585198521614
+Loss at iteration 110 : 0.007126131094992161
+Loss at iteration 120 : 0.007512078154832125
+The SSIM Value is: 0.8192681550979615
+The PSNR Value is: 21.340735626220702
+the epoch is: 98
+Loss at iteration 10 : 0.007714960258454084
+Loss at iteration 20 : 0.005684019066393375
+Loss at iteration 30 : 0.015084821730852127
+Loss at iteration 40 : 0.009273051284253597
+Loss at iteration 50 : 0.016767757013440132
+Loss at iteration 60 : 0.00924883596599102
+Loss at iteration 70 : 0.009781784377992153
+Loss at iteration 80 : 0.009609955362975597
+Loss at iteration 90 : 0.009035248309373856
+Loss at iteration 100 : 0.012007753364741802
+Loss at iteration 110 : 0.015124086290597916
+Loss at iteration 120 : 0.009988545440137386
+The SSIM Value is: 0.8222103238105773
+The PSNR Value is: 21.604408518473306
+the epoch is: 99
+Loss at iteration 10 : 0.00619101757183671
+Loss at iteration 20 : 0.008367183618247509
+Loss at iteration 30 : 0.01754067838191986
+Loss at iteration 40 : 0.008519716560840607
+Loss at iteration 50 : 0.009103421121835709
+Loss at iteration 60 : 0.014500890858471394
+Loss at iteration 70 : 0.007070211693644524
+Loss at iteration 80 : 0.008327051065862179
+Loss at iteration 90 : 0.009020171128213406
+Loss at iteration 100 : 0.010216322727501392
+Loss at iteration 110 : 0.0067897578701376915
+Loss at iteration 120 : 0.009996546432375908
+The SSIM Value is: 0.8190311034520467
+The PSNR Value is: 21.37294069925944
+the epoch is: 100
+Loss at iteration 10 : 0.011692946776747704
+Loss at iteration 20 : 0.0057508996687829494
+Loss at iteration 30 : 0.006600078195333481
+Loss at iteration 40 : 0.01313018798828125
+Loss at iteration 50 : 0.010774084366858006
+Loss at iteration 60 : 0.012303076684474945
+Loss at iteration 70 : 0.006534496787935495
+Loss at iteration 80 : 0.007779196836054325
+Loss at iteration 90 : 0.006348027847707272
+Loss at iteration 100 : 0.010751370340585709
+Loss at iteration 110 : 0.010622942820191383
+Loss at iteration 120 : 0.009083553217351437
+The SSIM Value is: 0.8203660448392233
+The PSNR Value is: 21.484876124064126
+the epoch is: 101
+Loss at iteration 10 : 0.01016814261674881
+Loss at iteration 20 : 0.0102451853454113
+Loss at iteration 30 : 0.01605827733874321
+Loss at iteration 40 : 0.009961090050637722
+Loss at iteration 50 : 0.009282379411160946
+Loss at iteration 60 : 0.01100236363708973
+Loss at iteration 70 : 0.009281115606427193
+Loss at iteration 80 : 0.01210726611316204
+Loss at iteration 90 : 0.01495260838419199
+Loss at iteration 100 : 0.004674802999943495
+Loss at iteration 110 : 0.008008302189409733
+Loss at iteration 120 : 0.010966113768517971
+The SSIM Value is: 0.8174517512321472
+The PSNR Value is: 20.761391766866048
+the epoch is: 102
+Loss at iteration 10 : 0.00867310632020235
+Loss at iteration 20 : 0.008541596122086048
+Loss at iteration 30 : 0.01894722878932953
+Loss at iteration 40 : 0.00809760857373476
+Loss at iteration 50 : 0.009471668861806393
+Loss at iteration 60 : 0.007831948809325695
+Loss at iteration 70 : 0.005056040361523628
+Loss at iteration 80 : 0.0076102763414382935
+Loss at iteration 90 : 0.004813618957996368
+Loss at iteration 100 : 0.017266850918531418
+Loss at iteration 110 : 0.008396420627832413
+Loss at iteration 120 : 0.01091073825955391
+The SSIM Value is: 0.8077826261520386
+The PSNR Value is: 20.322909609476724
+the epoch is: 103
+Loss at iteration 10 : 0.006745206657797098
+Loss at iteration 20 : 0.012147355824708939
+Loss at iteration 30 : 0.009402899071574211
+Loss at iteration 40 : 0.007244645617902279
+Loss at iteration 50 : 0.006864952389150858
+Loss at iteration 60 : 0.012077497318387032
+Loss at iteration 70 : 0.00789986364543438
+Loss at iteration 80 : 0.010094093158841133
+Loss at iteration 90 : 0.013504279777407646
+Loss at iteration 100 : 0.005967891775071621
+Loss at iteration 110 : 0.009542743675410748
+Loss at iteration 120 : 0.012189585715532303
+The SSIM Value is: 0.8193652153015136
+The PSNR Value is: 21.594189325968426
+the epoch is: 104
+Loss at iteration 10 : 0.008784305304288864
+Loss at iteration 20 : 0.004767382517457008
+Loss at iteration 30 : 0.011610042303800583
+Loss at iteration 40 : 0.013002444058656693
+Loss at iteration 50 : 0.015034514479339123
+Loss at iteration 60 : 0.011217718943953514
+Loss at iteration 70 : 0.007504574488848448
+Loss at iteration 80 : 0.012460615485906601
+Loss at iteration 90 : 0.009095780551433563
+Loss at iteration 100 : 0.00936235673725605
+Loss at iteration 110 : 0.006743862293660641
+Loss at iteration 120 : 0.0055715469643473625
+The SSIM Value is: 0.813906482855479
+The PSNR Value is: 21.209474500020345
+the epoch is: 105
+Loss at iteration 10 : 0.010936497710645199
+Loss at iteration 20 : 0.01043162401765585
+Loss at iteration 30 : 0.0118278618901968
+Loss at iteration 40 : 0.006930287461727858
+Loss at iteration 50 : 0.008497745729982853
+Loss at iteration 60 : 0.010617238469421864
+Loss at iteration 70 : 0.00936606340110302
+Loss at iteration 80 : 0.009845903143286705
+Loss at iteration 90 : 0.0052226996049284935
+Loss at iteration 100 : 0.014494244940578938
+Loss at iteration 110 : 0.007450529839843512
+Loss at iteration 120 : 0.008227366022765636
+The SSIM Value is: 0.8237370173136394
+The PSNR Value is: 21.51421724955241
+the epoch is: 106
+Loss at iteration 10 : 0.017697568982839584
+Loss at iteration 20 : 0.0070524862967431545
+Loss at iteration 30 : 0.006397072691470385
+Loss at iteration 40 : 0.005353009793907404
+Loss at iteration 50 : 0.013043536804616451
+Loss at iteration 60 : 0.009385088458657265
+Loss at iteration 70 : 0.009319275617599487
+Loss at iteration 80 : 0.006661569699645042
+Loss at iteration 90 : 0.00798564963042736
+Loss at iteration 100 : 0.007258953060954809
+Loss at iteration 110 : 0.010176755487918854
+Loss at iteration 120 : 0.005153188016265631
+The SSIM Value is: 0.8065992037455241
+The PSNR Value is: 20.04537913004557
+the epoch is: 107
+Loss at iteration 10 : 0.004025296773761511
+Loss at iteration 20 : 0.009762637317180634
+Loss at iteration 30 : 0.012456363067030907
+Loss at iteration 40 : 0.01248155627399683
+Loss at iteration 50 : 0.01288615632802248
+Loss at iteration 60 : 0.012782203033566475
+Loss at iteration 70 : 0.01767568662762642
+Loss at iteration 80 : 0.0073954202234745026
+Loss at iteration 90 : 0.008266150020062923
+Loss at iteration 100 : 0.011090544983744621
+Loss at iteration 110 : 0.01549611147493124
+Loss at iteration 120 : 0.006201600655913353
+The SSIM Value is: 0.8177225033442179
+The PSNR Value is: 20.549920908610027
+the epoch is: 108
+Loss at iteration 10 : 0.011479891836643219
+Loss at iteration 20 : 0.007518432103097439
+Loss at iteration 30 : 0.009354798123240471
+Loss at iteration 40 : 0.008153930306434631
+Loss at iteration 50 : 0.011654981411993504
+Loss at iteration 60 : 0.009382910095155239
+Loss at iteration 70 : 0.007393106818199158
+Loss at iteration 80 : 0.008528348989784718
+Loss at iteration 90 : 0.008540447801351547
+Loss at iteration 100 : 0.007790790405124426
+Loss at iteration 110 : 0.009332530200481415
+Loss at iteration 120 : 0.01418975181877613
+The SSIM Value is: 0.8119566917419434
+The PSNR Value is: 20.39628086090088
+the epoch is: 109
+Loss at iteration 10 : 0.005072901491075754
+Loss at iteration 20 : 0.009836551733314991
+Loss at iteration 30 : 0.009873205795884132
+Loss at iteration 40 : 0.01323346421122551
+Loss at iteration 50 : 0.007837512530386448
+Loss at iteration 60 : 0.004038460087031126
+Loss at iteration 70 : 0.008902221918106079
+Loss at iteration 80 : 0.005486242473125458
+Loss at iteration 90 : 0.009998410008847713
+Loss at iteration 100 : 0.014006457291543484
+Loss at iteration 110 : 0.007271563168615103
+Loss at iteration 120 : 0.011860244907438755
+The SSIM Value is: 0.8245381832122802
+The PSNR Value is: 21.30859972635905
+the epoch is: 110
+Loss at iteration 10 : 0.011470213532447815
+Loss at iteration 20 : 0.014518126845359802
+Loss at iteration 30 : 0.015045445412397385
+Loss at iteration 40 : 0.011458736844360828
+Loss at iteration 50 : 0.010131139308214188
+Loss at iteration 60 : 0.006147216074168682
+Loss at iteration 70 : 0.007902538403868675
+Loss at iteration 80 : 0.008333464153110981
+Loss at iteration 90 : 0.009780495427548885
+Loss at iteration 100 : 0.0065251728519797325
+Loss at iteration 110 : 0.009592808783054352
+Loss at iteration 120 : 0.014021952636539936
+The SSIM Value is: 0.8153998136520386
+The PSNR Value is: 20.86328468322754
+the epoch is: 111
+Loss at iteration 10 : 0.01270117424428463
+Loss at iteration 20 : 0.01376254577189684
+Loss at iteration 30 : 0.014072198420763016
+Loss at iteration 40 : 0.012381293810904026
+Loss at iteration 50 : 0.008214794099330902
+Loss at iteration 60 : 0.008156457915902138
+Loss at iteration 70 : 0.014635568484663963
+Loss at iteration 80 : 0.006789947859942913
+Loss at iteration 90 : 0.006440797355026007
+Loss at iteration 100 : 0.008864318020641804
+Loss at iteration 110 : 0.012837409973144531
+Loss at iteration 120 : 0.015809690579771996
+The SSIM Value is: 0.8090679367383321
+The PSNR Value is: 20.648157374064127
+the epoch is: 112
+Loss at iteration 10 : 0.007337090093642473
+Loss at iteration 20 : 0.008702896535396576
+Loss at iteration 30 : 0.008730171248316765
+Loss at iteration 40 : 0.013522684574127197
+Loss at iteration 50 : 0.004940088838338852
+Loss at iteration 60 : 0.007844693958759308
+Loss at iteration 70 : 0.011678545735776424
+Loss at iteration 80 : 0.005427318625152111
+Loss at iteration 90 : 0.00985751673579216
+Loss at iteration 100 : 0.00737915700301528
+Loss at iteration 110 : 0.012262093834578991
+Loss at iteration 120 : 0.0070366389118134975
+The SSIM Value is: 0.8126214067141215
+The PSNR Value is: 20.661303520202637
+the epoch is: 113
+Loss at iteration 10 : 0.014684057794511318
+Loss at iteration 20 : 0.009932640939950943
+Loss at iteration 30 : 0.010896531865000725
+Loss at iteration 40 : 0.011882543563842773
+Loss at iteration 50 : 0.010075071826577187
+Loss at iteration 60 : 0.007912836968898773
+Loss at iteration 70 : 0.007891669869422913
+Loss at iteration 80 : 0.012433376163244247
+Loss at iteration 90 : 0.008255980908870697
+Loss at iteration 100 : 0.008075565099716187
+Loss at iteration 110 : 0.013505949638783932
+Loss at iteration 120 : 0.009350302629172802
+The SSIM Value is: 0.8240527709325155
+The PSNR Value is: 21.582388750712077
+the epoch is: 114
+Loss at iteration 10 : 0.010412925854325294
+Loss at iteration 20 : 0.01509898528456688
+Loss at iteration 30 : 0.007860385812819004
+Loss at iteration 40 : 0.01799679547548294
+Loss at iteration 50 : 0.006576021201908588
+Loss at iteration 60 : 0.00840911827981472
+Loss at iteration 70 : 0.011976540088653564
+Loss at iteration 80 : 0.00640374980866909
+Loss at iteration 90 : 0.01255018264055252
+Loss at iteration 100 : 0.012018684297800064
+Loss at iteration 110 : 0.005613380111753941
+Loss at iteration 120 : 0.008382515981793404
+The SSIM Value is: 0.8074790835380554
+The PSNR Value is: 19.707983779907227
+the epoch is: 115
+Loss at iteration 10 : 0.008551758714020252
+Loss at iteration 20 : 0.012595294043421745
+Loss at iteration 30 : 0.0073353806510567665
+Loss at iteration 40 : 0.01220269501209259
+Loss at iteration 50 : 0.006310605444014072
+Loss at iteration 60 : 0.00945254135876894
+Loss at iteration 70 : 0.0077835433185100555
+Loss at iteration 80 : 0.009393864311277866
+Loss at iteration 90 : 0.011116936802864075
+Loss at iteration 100 : 0.007773930206894875
+Loss at iteration 110 : 0.007074535824358463
+Loss at iteration 120 : 0.008364420384168625
+The SSIM Value is: 0.8165987213452657
+The PSNR Value is: 21.3352507909139
+the epoch is: 116
+Loss at iteration 10 : 0.00813204050064087
+Loss at iteration 20 : 0.011432362720370293
+Loss at iteration 30 : 0.008817107416689396
+Loss at iteration 40 : 0.005915735848248005
+Loss at iteration 50 : 0.004040277563035488
+Loss at iteration 60 : 0.0053035500459373
+Loss at iteration 70 : 0.011101832613348961
+Loss at iteration 80 : 0.006247167941182852
+Loss at iteration 90 : 0.004100549500435591
+Loss at iteration 100 : 0.009144068695604801
+Loss at iteration 110 : 0.00850884523242712
+Loss at iteration 120 : 0.005756850354373455
+The SSIM Value is: 0.819228716691335
+The PSNR Value is: 21.29277661641439
+the epoch is: 117
+Loss at iteration 10 : 0.007305767387151718
+Loss at iteration 20 : 0.0062995427288115025
+Loss at iteration 30 : 0.008008100092411041
+Loss at iteration 40 : 0.008859998546540737
+Loss at iteration 50 : 0.007493411190807819
+Loss at iteration 60 : 0.008051940239965916
+Loss at iteration 70 : 0.007087201811373234
+Loss at iteration 80 : 0.010823789983987808
+Loss at iteration 90 : 0.009049826301634312
+Loss at iteration 100 : 0.008497795090079308
+Loss at iteration 110 : 0.00895716156810522
+Loss at iteration 120 : 0.009676452726125717
+The SSIM Value is: 0.8217288970947265
+The PSNR Value is: 21.828050740559895
+the epoch is: 118
+Loss at iteration 10 : 0.007486566435545683
+Loss at iteration 20 : 0.008094795048236847
+Loss at iteration 30 : 0.0066687315702438354
+Loss at iteration 40 : 0.007870083674788475
+Loss at iteration 50 : 0.011059444397687912
+Loss at iteration 60 : 0.006373070180416107
+Loss at iteration 70 : 0.011260160245001316
+Loss at iteration 80 : 0.005809833761304617
+Loss at iteration 90 : 0.0059403046034276485
+Loss at iteration 100 : 0.011004513129591942
+Loss at iteration 110 : 0.011347636580467224
+Loss at iteration 120 : 0.01047544740140438
+The SSIM Value is: 0.8262929995854695
+The PSNR Value is: 22.003445116678872
+the epoch is: 119
+Loss at iteration 10 : 0.00889479648321867
+Loss at iteration 20 : 0.014201182872056961
+Loss at iteration 30 : 0.0065910969860851765
+Loss at iteration 40 : 0.009999300353229046
+Loss at iteration 50 : 0.008216318674385548
+Loss at iteration 60 : 0.011291541159152985
+Loss at iteration 70 : 0.010870027355849743
+Loss at iteration 80 : 0.007685527205467224
+Loss at iteration 90 : 0.0071413712576031685
+Loss at iteration 100 : 0.006452565547078848
+Loss at iteration 110 : 0.0057060327380895615
+Loss at iteration 120 : 0.005734862759709358
+The SSIM Value is: 0.8234106421470642
+The PSNR Value is: 21.489914639790854
+the epoch is: 120
+Loss at iteration 10 : 0.01084114145487547
+Loss at iteration 20 : 0.01784922182559967
+Loss at iteration 30 : 0.00619128393009305
+Loss at iteration 40 : 0.0055107250809669495
+Loss at iteration 50 : 0.008912952616810799
+Loss at iteration 60 : 0.012764908373355865
+Loss at iteration 70 : 0.009041449055075645
+Loss at iteration 80 : 0.00804295763373375
+Loss at iteration 90 : 0.008092972449958324
+Loss at iteration 100 : 0.011735040694475174
+Loss at iteration 110 : 0.008958972059190273
+Loss at iteration 120 : 0.009528174996376038
+The SSIM Value is: 0.8221293290456136
+The PSNR Value is: 21.250102488199868
+the epoch is: 121
+Loss at iteration 10 : 0.009462610818445683
+Loss at iteration 20 : 0.008921172469854355
+Loss at iteration 30 : 0.008749356493353844
+Loss at iteration 40 : 0.009003734216094017
+Loss at iteration 50 : 0.010407248511910439
+Loss at iteration 60 : 0.008662018924951553
+Loss at iteration 70 : 0.00951184332370758
+Loss at iteration 80 : 0.009944465011358261
+Loss at iteration 90 : 0.007171579170972109
+Loss at iteration 100 : 0.009850628674030304
+Loss at iteration 110 : 0.009805099107325077
+Loss at iteration 120 : 0.008936295285820961
+The SSIM Value is: 0.8166217168172201
+The PSNR Value is: 20.71414966583252
+the epoch is: 122
+Loss at iteration 10 : 0.007901753298938274
+Loss at iteration 20 : 0.008545655757188797
+Loss at iteration 30 : 0.008197322487831116
+Loss at iteration 40 : 0.00951012410223484
+Loss at iteration 50 : 0.006264153402298689
+Loss at iteration 60 : 0.007025118917226791
+Loss at iteration 70 : 0.014342376962304115
+Loss at iteration 80 : 0.013944286853075027
+Loss at iteration 90 : 0.009033255279064178
+Loss at iteration 100 : 0.010453558526933193
+Loss at iteration 110 : 0.006876271218061447
+Loss at iteration 120 : 0.005009795539081097
+The SSIM Value is: 0.8139911333719889
+The PSNR Value is: 20.569335619608562
+the epoch is: 123
+Loss at iteration 10 : 0.008367388509213924
+Loss at iteration 20 : 0.010218404233455658
+Loss at iteration 30 : 0.00942275021225214
+Loss at iteration 40 : 0.010539141483604908
+Loss at iteration 50 : 0.008723864331841469
+Loss at iteration 60 : 0.0048837484791874886
+Loss at iteration 70 : 0.00642167404294014
+Loss at iteration 80 : 0.013118691742420197
+Loss at iteration 90 : 0.005125806666910648
+Loss at iteration 100 : 0.013963182456791401
+Loss at iteration 110 : 0.01101766712963581
+Loss at iteration 120 : 0.006046392023563385
+The SSIM Value is: 0.8257402578989664
+The PSNR Value is: 21.376303927103677
+the epoch is: 124
+Loss at iteration 10 : 0.01661749742925167
+Loss at iteration 20 : 0.005221876315772533
+Loss at iteration 30 : 0.014140106737613678
+Loss at iteration 40 : 0.00770910456776619
+Loss at iteration 50 : 0.010113580152392387
+Loss at iteration 60 : 0.011902067810297012
+Loss at iteration 70 : 0.0070380475372076035
+Loss at iteration 80 : 0.008252757601439953
+Loss at iteration 90 : 0.01042016502469778
+Loss at iteration 100 : 0.007440288085490465
+Loss at iteration 110 : 0.010230030864477158
+Loss at iteration 120 : 0.008846652694046497
+The SSIM Value is: 0.8213655988375346
+The PSNR Value is: 21.343336613972983
+the epoch is: 125
+Loss at iteration 10 : 0.009889448992908001
+Loss at iteration 20 : 0.009083549492061138
+Loss at iteration 30 : 0.009430469945073128
+Loss at iteration 40 : 0.007006433792412281
+Loss at iteration 50 : 0.010235386900603771
+Loss at iteration 60 : 0.005501215346157551
+Loss at iteration 70 : 0.006017378997057676
+Loss at iteration 80 : 0.00499508623033762
+Loss at iteration 90 : 0.010392101481556892
+Loss at iteration 100 : 0.008852995932102203
+Loss at iteration 110 : 0.012059864588081837
+Loss at iteration 120 : 0.015996655449271202
+The SSIM Value is: 0.8251482129096985
+The PSNR Value is: 21.367471758524577
+the epoch is: 126
+Loss at iteration 10 : 0.008759820833802223
+Loss at iteration 20 : 0.007577300071716309
+Loss at iteration 30 : 0.004913540557026863
+Loss at iteration 40 : 0.009232827462255955
+Loss at iteration 50 : 0.0071853226982057095
+Loss at iteration 60 : 0.010671940632164478
+Loss at iteration 70 : 0.007698488887399435
+Loss at iteration 80 : 0.009223831817507744
+Loss at iteration 90 : 0.010029984638094902
+Loss at iteration 100 : 0.012988455593585968
+Loss at iteration 110 : 0.009177910163998604
+Loss at iteration 120 : 0.006941879168152809
+The SSIM Value is: 0.8083686391512553
+The PSNR Value is: 20.22048505147298
+the epoch is: 127
+Loss at iteration 10 : 0.007936807349324226
+Loss at iteration 20 : 0.0055098808370530605
+Loss at iteration 30 : 0.008968356996774673
+Loss at iteration 40 : 0.010646028444170952
+Loss at iteration 50 : 0.01128809992223978
+Loss at iteration 60 : 0.012694164179265499
+Loss at iteration 70 : 0.00447826599702239
+Loss at iteration 80 : 0.012929352931678295
+Loss at iteration 90 : 0.010043694637715816
+Loss at iteration 100 : 0.010431479662656784
+Loss at iteration 110 : 0.008838777430355549
+Loss at iteration 120 : 0.0077345287427306175
+The SSIM Value is: 0.8053288539250691
+The PSNR Value is: 20.068885803222656
+the epoch is: 128
+Loss at iteration 10 : 0.012519990094006062
+Loss at iteration 20 : 0.011455368250608444
+Loss at iteration 30 : 0.009722329676151276
+Loss at iteration 40 : 0.005625635851174593
+Loss at iteration 50 : 0.00969882681965828
+Loss at iteration 60 : 0.01040018629282713
+Loss at iteration 70 : 0.0069200810976326466
+Loss at iteration 80 : 0.007020622491836548
+Loss at iteration 90 : 0.012489746324717999
+Loss at iteration 100 : 0.007736434228718281
+Loss at iteration 110 : 0.007824243977665901
+Loss at iteration 120 : 0.009516793303191662
+The SSIM Value is: 0.8203477740287781
+The PSNR Value is: 20.93772621154785
+the epoch is: 129
+Loss at iteration 10 : 0.019497953355312347
+Loss at iteration 20 : 0.00821772776544094
+Loss at iteration 30 : 0.005579607095569372
+Loss at iteration 40 : 0.00911073200404644
+Loss at iteration 50 : 0.010806023143231869
+Loss at iteration 60 : 0.00973225012421608
+Loss at iteration 70 : 0.015028457157313824
+Loss at iteration 80 : 0.01544561143964529
+Loss at iteration 90 : 0.008434522897005081
+Loss at iteration 100 : 0.009143794886767864
+Loss at iteration 110 : 0.010027021169662476
+Loss at iteration 120 : 0.011777189560234547
+The SSIM Value is: 0.8193650762240092
+The PSNR Value is: 20.890752601623536
+the epoch is: 130
+Loss at iteration 10 : 0.005756540223956108
+Loss at iteration 20 : 0.009549889713525772
+Loss at iteration 30 : 0.007689629681408405
+Loss at iteration 40 : 0.008006898686289787
+Loss at iteration 50 : 0.007858576253056526
+Loss at iteration 60 : 0.007131583988666534
+Loss at iteration 70 : 0.00894700177013874
+Loss at iteration 80 : 0.010976865887641907
+Loss at iteration 90 : 0.005193205550312996
+Loss at iteration 100 : 0.007127594202756882
+Loss at iteration 110 : 0.012391704134643078
+Loss at iteration 120 : 0.010845703072845936
+The SSIM Value is: 0.8116617838541667
+The PSNR Value is: 20.027328300476075
+the epoch is: 131
+Loss at iteration 10 : 0.012409195303916931
+Loss at iteration 20 : 0.010826671496033669
+Loss at iteration 30 : 0.009583532810211182
+Loss at iteration 40 : 0.007789216004312038
+Loss at iteration 50 : 0.009842938743531704
+Loss at iteration 60 : 0.0070614987052977085
+Loss at iteration 70 : 0.009168902412056923
+Loss at iteration 80 : 0.00915604829788208
+Loss at iteration 90 : 0.010702492669224739
+Loss at iteration 100 : 0.00607262272387743
+Loss at iteration 110 : 0.009059745818376541
+Loss at iteration 120 : 0.007542839273810387
+The SSIM Value is: 0.81965252161026
+The PSNR Value is: 21.29328835805257
+the epoch is: 132
+Loss at iteration 10 : 0.005944594740867615
+Loss at iteration 20 : 0.011071177199482918
+Loss at iteration 30 : 0.0064813531935215
+Loss at iteration 40 : 0.009907230734825134
+Loss at iteration 50 : 0.006013369187712669
+Loss at iteration 60 : 0.0071003311313688755
+Loss at iteration 70 : 0.00751916691660881
+Loss at iteration 80 : 0.006747931707650423
+Loss at iteration 90 : 0.011171290650963783
+Loss at iteration 100 : 0.020254263654351234
+Loss at iteration 110 : 0.006531008053570986
+Loss at iteration 120 : 0.005365992430597544
+The SSIM Value is: 0.8192134658495586
+The PSNR Value is: 20.640014584859212
+the epoch is: 133
+Loss at iteration 10 : 0.012118957936763763
+Loss at iteration 20 : 0.00624128570780158
+Loss at iteration 30 : 0.013300945982336998
+Loss at iteration 40 : 0.009827474132180214
+Loss at iteration 50 : 0.005085640586912632
+Loss at iteration 60 : 0.007791598327457905
+Loss at iteration 70 : 0.013461612164974213
+Loss at iteration 80 : 0.006909323390573263
+Loss at iteration 90 : 0.006406474858522415
+Loss at iteration 100 : 0.007896062918007374
+Loss at iteration 110 : 0.009137899614870548
+Loss at iteration 120 : 0.010740049183368683
+The SSIM Value is: 0.8157999555269877
+The PSNR Value is: 20.918052864074706
+the epoch is: 134
+Loss at iteration 10 : 0.007774826604872942
+Loss at iteration 20 : 0.008917445316910744
+Loss at iteration 30 : 0.007537854835391045
+Loss at iteration 40 : 0.006935812532901764
+Loss at iteration 50 : 0.008306093513965607
+Loss at iteration 60 : 0.013378784991800785
+Loss at iteration 70 : 0.007363076787441969
+Loss at iteration 80 : 0.012485360726714134
+Loss at iteration 90 : 0.006963924504816532
+Loss at iteration 100 : 0.0071756006218492985
+Loss at iteration 110 : 0.010436798445880413
+Loss at iteration 120 : 0.007856263779103756
+The SSIM Value is: 0.8236371755599976
+The PSNR Value is: 21.667675590515138
+the epoch is: 135
+Loss at iteration 10 : 0.00851381290704012
+Loss at iteration 20 : 0.005708921700716019
+Loss at iteration 30 : 0.01153558399528265
+Loss at iteration 40 : 0.00970839150249958
+Loss at iteration 50 : 0.008551842533051968
+Loss at iteration 60 : 0.006633383221924305
+Loss at iteration 70 : 0.011702517978847027
+Loss at iteration 80 : 0.009835610166192055
+Loss at iteration 90 : 0.01132581103593111
+Loss at iteration 100 : 0.011274605989456177
+Loss at iteration 110 : 0.005047021899372339
+Loss at iteration 120 : 0.008756596595048904
+The SSIM Value is: 0.8230347235997518
+The PSNR Value is: 21.758201026916502
+the epoch is: 136
+Loss at iteration 10 : 0.005353957414627075
+Loss at iteration 20 : 0.008929017931222916
+Loss at iteration 30 : 0.004274675156921148
+Loss at iteration 40 : 0.006849135737866163
+Loss at iteration 50 : 0.018522247672080994
+Loss at iteration 60 : 0.009924201294779778
+Loss at iteration 70 : 0.009371164254844189
+Loss at iteration 80 : 0.006296459585428238
+Loss at iteration 90 : 0.01502341777086258
+Loss at iteration 100 : 0.012393106706440449
+Loss at iteration 110 : 0.012173404917120934
+Loss at iteration 120 : 0.01030915416777134
+The SSIM Value is: 0.8224621812502543
+The PSNR Value is: 21.170648956298827
+the epoch is: 137
+Loss at iteration 10 : 0.014969988726079464
+Loss at iteration 20 : 0.006618212442845106
+Loss at iteration 30 : 0.013288424350321293
+Loss at iteration 40 : 0.010335481725633144
+Loss at iteration 50 : 0.008107202127575874
+Loss at iteration 60 : 0.010168112814426422
+Loss at iteration 70 : 0.007899491116404533
+Loss at iteration 80 : 0.009437663480639458
+Loss at iteration 90 : 0.012078696861863136
+Loss at iteration 100 : 0.005304304882884026
+Loss at iteration 110 : 0.011192413978278637
+Loss at iteration 120 : 0.010104035958647728
+The SSIM Value is: 0.8266685843467713
+The PSNR Value is: 21.68201141357422
+the epoch is: 138
+Loss at iteration 10 : 0.007280857302248478
+Loss at iteration 20 : 0.007453930098563433
+Loss at iteration 30 : 0.012867707759141922
+Loss at iteration 40 : 0.01005455944687128
+Loss at iteration 50 : 0.01096076425164938
+Loss at iteration 60 : 0.006885342299938202
+Loss at iteration 70 : 0.010220485739409924
+Loss at iteration 80 : 0.00858395267277956
+Loss at iteration 90 : 0.011151858605444431
+Loss at iteration 100 : 0.00455219391733408
+Loss at iteration 110 : 0.007998376153409481
+Loss at iteration 120 : 0.0071484679356217384
+The SSIM Value is: 0.8108865896860759
+The PSNR Value is: 20.371227073669434
+the epoch is: 139
+Loss at iteration 10 : 0.01686350256204605
+Loss at iteration 20 : 0.007522609084844589
+Loss at iteration 30 : 0.00792426336556673
+Loss at iteration 40 : 0.008165990933775902
+Loss at iteration 50 : 0.012878564186394215
+Loss at iteration 60 : 0.00938441976904869
+Loss at iteration 70 : 0.00929019320756197
+Loss at iteration 80 : 0.00837849173694849
+Loss at iteration 90 : 0.008705999702215195
+Loss at iteration 100 : 0.005671021994203329
+Loss at iteration 110 : 0.01060698926448822
+Loss at iteration 120 : 0.008207187056541443
+The SSIM Value is: 0.8245306412378947
+The PSNR Value is: 21.77596314748128
+the epoch is: 140
+Loss at iteration 10 : 0.01820615865290165
+Loss at iteration 20 : 0.011263728141784668
+Loss at iteration 30 : 0.007525548338890076
+Loss at iteration 40 : 0.013110424391925335
+Loss at iteration 50 : 0.007635078858584166
+Loss at iteration 60 : 0.012081578373908997
+Loss at iteration 70 : 0.008074723184108734
+Loss at iteration 80 : 0.014868972823023796
+Loss at iteration 90 : 0.007522475440055132
+Loss at iteration 100 : 0.007194675970822573
+Loss at iteration 110 : 0.009155726991593838
+Loss at iteration 120 : 0.005112003069370985
+The SSIM Value is: 0.8194694081942241
+The PSNR Value is: 20.782348442077637
+the epoch is: 141
+Loss at iteration 10 : 0.009058154188096523
+Loss at iteration 20 : 0.010917764157056808
+Loss at iteration 30 : 0.012465136125683784
+Loss at iteration 40 : 0.004107696004211903
+Loss at iteration 50 : 0.008408091962337494
+Loss at iteration 60 : 0.0077073960565030575
+Loss at iteration 70 : 0.008117284625768661
+Loss at iteration 80 : 0.009202752262353897
+Loss at iteration 90 : 0.007948384620249271
+Loss at iteration 100 : 0.009579116478562355
+Loss at iteration 110 : 0.008202632889151573
+Loss at iteration 120 : 0.009381354786455631
+The SSIM Value is: 0.8136444886525472
+The PSNR Value is: 20.68546657562256
+the epoch is: 142
+Loss at iteration 10 : 0.007025820668786764
+Loss at iteration 20 : 0.010555379092693329
+Loss at iteration 30 : 0.00839221477508545
+Loss at iteration 40 : 0.010785521939396858
+Loss at iteration 50 : 0.009209506213665009
+Loss at iteration 60 : 0.006407806184142828
+Loss at iteration 70 : 0.01156049408018589
+Loss at iteration 80 : 0.005594558548182249
+Loss at iteration 90 : 0.010483803227543831
+Loss at iteration 100 : 0.006589343771338463
+Loss at iteration 110 : 0.005479094572365284
+Loss at iteration 120 : 0.008040576241910458
+The SSIM Value is: 0.8142514586448669
+The PSNR Value is: 20.914612770080566
+the epoch is: 143
+Loss at iteration 10 : 0.009015622548758984
+Loss at iteration 20 : 0.012431646697223186
+Loss at iteration 30 : 0.01742248237133026
+Loss at iteration 40 : 0.008686373010277748
+Loss at iteration 50 : 0.01164410263299942
+Loss at iteration 60 : 0.015864674001932144
+Loss at iteration 70 : 0.007800212129950523
+Loss at iteration 80 : 0.009395455941557884
+Loss at iteration 90 : 0.01128016784787178
+Loss at iteration 100 : 0.005076700821518898
+Loss at iteration 110 : 0.011874452233314514
+Loss at iteration 120 : 0.012748979032039642
+The SSIM Value is: 0.8189550836881002
+The PSNR Value is: 20.562214660644532
+the epoch is: 144
+Loss at iteration 10 : 0.008630383759737015
+Loss at iteration 20 : 0.009429283440113068
+Loss at iteration 30 : 0.004383515100926161
+Loss at iteration 40 : 0.007587228901684284
+Loss at iteration 50 : 0.009103549644351006
+Loss at iteration 60 : 0.016121288761496544
+Loss at iteration 70 : 0.009861876256763935
+Loss at iteration 80 : 0.008887088857591152
+Loss at iteration 90 : 0.008398344740271568
+Loss at iteration 100 : 0.005623136647045612
+Loss at iteration 110 : 0.008109784685075283
+Loss at iteration 120 : 0.00847075879573822
+The SSIM Value is: 0.8238028605779012
+The PSNR Value is: 21.600476773579917
+the epoch is: 145
+Loss at iteration 10 : 0.012142973020672798
+Loss at iteration 20 : 0.013999603688716888
+Loss at iteration 30 : 0.011143170297145844
+Loss at iteration 40 : 0.011998407542705536
+Loss at iteration 50 : 0.010513601824641228
+Loss at iteration 60 : 0.009495547041296959
+Loss at iteration 70 : 0.008610179647803307
+Loss at iteration 80 : 0.011680143885314465
+Loss at iteration 90 : 0.0070680794306099415
+Loss at iteration 100 : 0.00923953577876091
+Loss at iteration 110 : 0.014088913798332214
+Loss at iteration 120 : 0.0073602208867669106
+The SSIM Value is: 0.8171250542004903
+The PSNR Value is: 20.532016118367512
+the epoch is: 146
+Loss at iteration 10 : 0.008734894916415215
+Loss at iteration 20 : 0.005792184267193079
+Loss at iteration 30 : 0.008021671324968338
+Loss at iteration 40 : 0.008735057897865772
+Loss at iteration 50 : 0.011277551762759686
+Loss at iteration 60 : 0.010927366092801094
+Loss at iteration 70 : 0.007463553920388222
+Loss at iteration 80 : 0.006993438582867384
+Loss at iteration 90 : 0.005946943070739508
+Loss at iteration 100 : 0.01122202631086111
+Loss at iteration 110 : 0.006080031860619783
+Loss at iteration 120 : 0.008090989664196968
+The SSIM Value is: 0.8030391613642375
+The PSNR Value is: 19.280795860290528
+the epoch is: 147
+Loss at iteration 10 : 0.007154399063438177
+Loss at iteration 20 : 0.009239611215889454
+Loss at iteration 30 : 0.009013406001031399
+Loss at iteration 40 : 0.0071074627339839935
+Loss at iteration 50 : 0.00743684358894825
+Loss at iteration 60 : 0.01196057815104723
+Loss at iteration 70 : 0.00913295615464449
+Loss at iteration 80 : 0.011631548404693604
+Loss at iteration 90 : 0.007970738224685192
+Loss at iteration 100 : 0.011611266061663628
+Loss at iteration 110 : 0.006871803663671017
+Loss at iteration 120 : 0.009887399151921272
+The SSIM Value is: 0.8227715571721395
+The PSNR Value is: 21.208917554219564
+the epoch is: 148
+Loss at iteration 10 : 0.008569639176130295
+Loss at iteration 20 : 0.010673108510673046
+Loss at iteration 30 : 0.005418384447693825
+Loss at iteration 40 : 0.0061729177832603455
+Loss at iteration 50 : 0.006330426782369614
+Loss at iteration 60 : 0.012715401127934456
+Loss at iteration 70 : 0.00668651657178998
+Loss at iteration 80 : 0.007129587698727846
+Loss at iteration 90 : 0.006134994328022003
+Loss at iteration 100 : 0.008987387642264366
+Loss at iteration 110 : 0.012631034478545189
+Loss at iteration 120 : 0.013156505301594734
+The SSIM Value is: 0.8174372553825379
+The PSNR Value is: 20.905717404683433
+the epoch is: 149
+Loss at iteration 10 : 0.006396824959665537
+Loss at iteration 20 : 0.008149035274982452
+Loss at iteration 30 : 0.006283721420913935
+Loss at iteration 40 : 0.007374714594334364
+Loss at iteration 50 : 0.009301049634814262
+Loss at iteration 60 : 0.00784674659371376
+Loss at iteration 70 : 0.003974365070462227
+Loss at iteration 80 : 0.004732525907456875
+Loss at iteration 90 : 0.009173150174319744
+Loss at iteration 100 : 0.008974899537861347
+Loss at iteration 110 : 0.00370098021812737
+Loss at iteration 120 : 0.010424388572573662
+The SSIM Value is: 0.8150224367777507
+The PSNR Value is: 20.803379185994466
+the epoch is: 150
+Loss at iteration 10 : 0.006236884277313948
+Loss at iteration 20 : 0.008677379228174686
+Loss at iteration 30 : 0.010887948796153069
+Loss at iteration 40 : 0.014891980215907097
+Loss at iteration 50 : 0.005434761755168438
+Loss at iteration 60 : 0.010105319321155548
+Loss at iteration 70 : 0.008133700117468834
+Loss at iteration 80 : 0.00574800418689847
+Loss at iteration 90 : 0.005882563069462776
+Loss at iteration 100 : 0.0085220318287611
+Loss at iteration 110 : 0.013147762045264244
+Loss at iteration 120 : 0.007480475585907698
+The SSIM Value is: 0.8190542856852213
+The PSNR Value is: 21.299687067667644
+the epoch is: 151
+Loss at iteration 10 : 0.008651560172438622
+Loss at iteration 20 : 0.009165078401565552
+Loss at iteration 30 : 0.008972863666713238
+Loss at iteration 40 : 0.01211446151137352
+Loss at iteration 50 : 0.008583372458815575
+Loss at iteration 60 : 0.005560105666518211
+Loss at iteration 70 : 0.0065594082698225975
+Loss at iteration 80 : 0.00761449197307229
+Loss at iteration 90 : 0.011247986927628517
+Loss at iteration 100 : 0.013261424377560616
+Loss at iteration 110 : 0.011855593882501125
+Loss at iteration 120 : 0.006493814755231142
+The SSIM Value is: 0.8147429267565409
+The PSNR Value is: 21.07379372914632
+the epoch is: 152
+Loss at iteration 10 : 0.01045047864317894
+Loss at iteration 20 : 0.006301457528024912
+Loss at iteration 30 : 0.010683723725378513
+Loss at iteration 40 : 0.0053352611139416695
+Loss at iteration 50 : 0.005605457816272974
+Loss at iteration 60 : 0.009155942127108574
+Loss at iteration 70 : 0.00973076093941927
+Loss at iteration 80 : 0.007328642997890711
+Loss at iteration 90 : 0.008115025237202644
+Loss at iteration 100 : 0.007959633134305477
+Loss at iteration 110 : 0.009307468309998512
+Loss at iteration 120 : 0.008277232758700848
+The SSIM Value is: 0.8193494995435079
+The PSNR Value is: 21.211830965677898
+the epoch is: 153
+Loss at iteration 10 : 0.006893528625369072
+Loss at iteration 20 : 0.00604599853977561
+Loss at iteration 30 : 0.009545990265905857
+Loss at iteration 40 : 0.01247539184987545
+Loss at iteration 50 : 0.009363997727632523
+Loss at iteration 60 : 0.008122069761157036
+Loss at iteration 70 : 0.006422080099582672
+Loss at iteration 80 : 0.011385655961930752
+Loss at iteration 90 : 0.009719543159008026
+Loss at iteration 100 : 0.0038530374877154827
+Loss at iteration 110 : 0.00640622666105628
+Loss at iteration 120 : 0.013668748550117016
+The SSIM Value is: 0.8067867596944173
+The PSNR Value is: 20.518791071573894
+the epoch is: 154
+Loss at iteration 10 : 0.008567877113819122
+Loss at iteration 20 : 0.01121258083730936
+Loss at iteration 30 : 0.010111323557794094
+Loss at iteration 40 : 0.009665435180068016
+Loss at iteration 50 : 0.006528044119477272
+Loss at iteration 60 : 0.01021603960543871
+Loss at iteration 70 : 0.01165483146905899
+Loss at iteration 80 : 0.006244214251637459
+Loss at iteration 90 : 0.007781843189150095
+Loss at iteration 100 : 0.010948901064693928
+Loss at iteration 110 : 0.01215260848402977
+Loss at iteration 120 : 0.008192634209990501
+The SSIM Value is: 0.8170188506444295
+The PSNR Value is: 20.43036149342855
+the epoch is: 155
+Loss at iteration 10 : 0.008302493952214718
+Loss at iteration 20 : 0.009943677112460136
+Loss at iteration 30 : 0.009731288999319077
+Loss at iteration 40 : 0.013187412172555923
+Loss at iteration 50 : 0.018302664160728455
+Loss at iteration 60 : 0.006658824160695076
+Loss at iteration 70 : 0.008093318901956081
+Loss at iteration 80 : 0.006635382771492004
+Loss at iteration 90 : 0.008869499899446964
+Loss at iteration 100 : 0.006714001297950745
+Loss at iteration 110 : 0.0058098528534173965
+Loss at iteration 120 : 0.00848042219877243
+The SSIM Value is: 0.8285136659940083
+The PSNR Value is: 21.57852013905843
+the epoch is: 156
+Loss at iteration 10 : 0.014143918640911579
+Loss at iteration 20 : 0.007748785428702831
+Loss at iteration 30 : 0.007783387787640095
+Loss at iteration 40 : 0.01616291143000126
+Loss at iteration 50 : 0.00934545136988163
+Loss at iteration 60 : 0.007751272991299629
+Loss at iteration 70 : 0.0076162442564964294
+Loss at iteration 80 : 0.003988250624388456
+Loss at iteration 90 : 0.007902348414063454
+Loss at iteration 100 : 0.010705947875976562
+Loss at iteration 110 : 0.008362953551113605
+Loss at iteration 120 : 0.006888246163725853
+The SSIM Value is: 0.8084323485692342
+The PSNR Value is: 20.027802975972495
+the epoch is: 157
+Loss at iteration 10 : 0.007703345734626055
+Loss at iteration 20 : 0.006001755129545927
+Loss at iteration 30 : 0.012704234570264816
+Loss at iteration 40 : 0.005224442109465599
+Loss at iteration 50 : 0.0092020807787776
+Loss at iteration 60 : 0.0075961630791425705
+Loss at iteration 70 : 0.014722317457199097
+Loss at iteration 80 : 0.011681508272886276
+Loss at iteration 90 : 0.006464330013841391
+Loss at iteration 100 : 0.005858376156538725
+Loss at iteration 110 : 0.008864341303706169
+Loss at iteration 120 : 0.013622613623738289
+The SSIM Value is: 0.8125941197077433
+The PSNR Value is: 20.200581487019857
+the epoch is: 158
+Loss at iteration 10 : 0.012539319694042206
+Loss at iteration 20 : 0.012831185944378376
+Loss at iteration 30 : 0.009196565486490726
+Loss at iteration 40 : 0.008981711231172085
+Loss at iteration 50 : 0.007752452977001667
+Loss at iteration 60 : 0.010436095297336578
+Loss at iteration 70 : 0.008030937053263187
+Loss at iteration 80 : 0.004759117495268583
+Loss at iteration 90 : 0.008559131994843483
+Loss at iteration 100 : 0.007203442044556141
+Loss at iteration 110 : 0.006708660628646612
+Loss at iteration 120 : 0.007658843882381916
+The SSIM Value is: 0.8266559402147929
+The PSNR Value is: 21.543126487731932
+the epoch is: 159
+Loss at iteration 10 : 0.007766978815197945
+Loss at iteration 20 : 0.010443830862641335
+Loss at iteration 30 : 0.008880620822310448
+Loss at iteration 40 : 0.008017197251319885
+Loss at iteration 50 : 0.010457993485033512
+Loss at iteration 60 : 0.009538944810628891
+Loss at iteration 70 : 0.008655793964862823
+Loss at iteration 80 : 0.010824715718626976
+Loss at iteration 90 : 0.006119274999946356
+Loss at iteration 100 : 0.006783923599869013
+Loss at iteration 110 : 0.010052519850432873
+Loss at iteration 120 : 0.010561976581811905
+The SSIM Value is: 0.823882249991099
+The PSNR Value is: 21.677170753479004
+the epoch is: 160
+Loss at iteration 10 : 0.011759419925510883
+Loss at iteration 20 : 0.009121210314333439
+Loss at iteration 30 : 0.01234547607600689
+Loss at iteration 40 : 0.010757701471447945
+Loss at iteration 50 : 0.007240423932671547
+Loss at iteration 60 : 0.017359228804707527
+Loss at iteration 70 : 0.007197084836661816
+Loss at iteration 80 : 0.009537113830447197
+Loss at iteration 90 : 0.005956965498626232
+Loss at iteration 100 : 0.00730852410197258
+Loss at iteration 110 : 0.013941287063062191
+Loss at iteration 120 : 0.00998546089977026
+The SSIM Value is: 0.822384246190389
+The PSNR Value is: 20.59319101969401
+the epoch is: 161
+Loss at iteration 10 : 0.006883224472403526
+Loss at iteration 20 : 0.006118063814938068
+Loss at iteration 30 : 0.008098534308373928
+Loss at iteration 40 : 0.008234740234911442
+Loss at iteration 50 : 0.00972987711429596
+Loss at iteration 60 : 0.007813707925379276
+Loss at iteration 70 : 0.00601314939558506
+Loss at iteration 80 : 0.012988587841391563
+Loss at iteration 90 : 0.011042460799217224
+Loss at iteration 100 : 0.007260388694703579
+Loss at iteration 110 : 0.006795357447117567
+Loss at iteration 120 : 0.00822104699909687
+The SSIM Value is: 0.8253733952840169
+The PSNR Value is: 21.7569881439209
+the epoch is: 162
+Loss at iteration 10 : 0.01309637725353241
+Loss at iteration 20 : 0.0057277497835457325
+Loss at iteration 30 : 0.006762366741895676
+Loss at iteration 40 : 0.009599987417459488
+Loss at iteration 50 : 0.006566391326487064
+Loss at iteration 60 : 0.008357360027730465
+Loss at iteration 70 : 0.008096180856227875
+Loss at iteration 80 : 0.007823457010090351
+Loss at iteration 90 : 0.010558675974607468
+Loss at iteration 100 : 0.004898810293525457
+Loss at iteration 110 : 0.006505048368126154
+Loss at iteration 120 : 0.010478521697223186
+The SSIM Value is: 0.8194034536679585
+The PSNR Value is: 20.94991092681885
+the epoch is: 163
+Loss at iteration 10 : 0.010078191757202148
+Loss at iteration 20 : 0.0056834034621715546
+Loss at iteration 30 : 0.009420196525752544
+Loss at iteration 40 : 0.0069308229722082615
+Loss at iteration 50 : 0.011180782690644264
+Loss at iteration 60 : 0.008702174760401249
+Loss at iteration 70 : 0.011025084182620049
+Loss at iteration 80 : 0.0071371616795659065
+Loss at iteration 90 : 0.013706641271710396
+Loss at iteration 100 : 0.004447756800800562
+Loss at iteration 110 : 0.007554283365607262
+Loss at iteration 120 : 0.005736640188843012
+The SSIM Value is: 0.8216212749481201
+The PSNR Value is: 21.096415328979493
+the epoch is: 164
+Loss at iteration 10 : 0.006057157181203365
+Loss at iteration 20 : 0.01376627292484045
+Loss at iteration 30 : 0.00678747333586216
+Loss at iteration 40 : 0.007674916181713343
+Loss at iteration 50 : 0.008464464917778969
+Loss at iteration 60 : 0.009737719781696796
+Loss at iteration 70 : 0.007851348258554935
+Loss at iteration 80 : 0.005263353697955608
+Loss at iteration 90 : 0.007968952879309654
+Loss at iteration 100 : 0.012248672544956207
+Loss at iteration 110 : 0.00845492072403431
+Loss at iteration 120 : 0.008327577263116837
+The SSIM Value is: 0.8214468201001485
+The PSNR Value is: 21.278712717692056
+the epoch is: 165
+Loss at iteration 10 : 0.010191427543759346
+Loss at iteration 20 : 0.005457830615341663
+Loss at iteration 30 : 0.010182209312915802
+Loss at iteration 40 : 0.0113533241674304
+Loss at iteration 50 : 0.007109550293534994
+Loss at iteration 60 : 0.004057323094457388
+Loss at iteration 70 : 0.004681470803916454
+Loss at iteration 80 : 0.007058117538690567
+Loss at iteration 90 : 0.0074752201326191425
+Loss at iteration 100 : 0.00932224839925766
+Loss at iteration 110 : 0.006414479576051235
+Loss at iteration 120 : 0.005226718261837959
+The SSIM Value is: 0.8281102458635966
+The PSNR Value is: 22.189102300008138
+the epoch is: 166
+Loss at iteration 10 : 0.004661561921238899
+Loss at iteration 20 : 0.011819741688668728
+Loss at iteration 30 : 0.006656692363321781
+Loss at iteration 40 : 0.008198907598853111
+Loss at iteration 50 : 0.007902569137513638
+Loss at iteration 60 : 0.008732536807656288
+Loss at iteration 70 : 0.00862155482172966
+Loss at iteration 80 : 0.0061047933995723724
+Loss at iteration 90 : 0.00730180274695158
+Loss at iteration 100 : 0.006911359261721373
+Loss at iteration 110 : 0.00800546258687973
+Loss at iteration 120 : 0.013000729493796825
+The SSIM Value is: 0.8259756207466126
+The PSNR Value is: 21.76913503011068
+the epoch is: 167
+Loss at iteration 10 : 0.007404044270515442
+Loss at iteration 20 : 0.011937837116420269
+Loss at iteration 30 : 0.010484199970960617
+Loss at iteration 40 : 0.012887399643659592
+Loss at iteration 50 : 0.01080965343862772
+Loss at iteration 60 : 0.012066973373293877
+Loss at iteration 70 : 0.006798889487981796
+Loss at iteration 80 : 0.008427179418504238
+Loss at iteration 90 : 0.006041551008820534
+Loss at iteration 100 : 0.012515896931290627
+Loss at iteration 110 : 0.010014507919549942
+Loss at iteration 120 : 0.010176129639148712
+The SSIM Value is: 0.815682848294576
+The PSNR Value is: 20.848084004720054
+the epoch is: 168
+Loss at iteration 10 : 0.008577198721468449
+Loss at iteration 20 : 0.010167248547077179
+Loss at iteration 30 : 0.01113193854689598
+Loss at iteration 40 : 0.004429892171174288
+Loss at iteration 50 : 0.012252220883965492
+Loss at iteration 60 : 0.006652962416410446
+Loss at iteration 70 : 0.008825070224702358
+Loss at iteration 80 : 0.0068687438033521175
+Loss at iteration 90 : 0.012928644195199013
+Loss at iteration 100 : 0.011348001658916473
+Loss at iteration 110 : 0.011092040687799454
+Loss at iteration 120 : 0.005618814378976822
+The SSIM Value is: 0.8250831286112468
+The PSNR Value is: 21.4529904683431
+the epoch is: 169
+Loss at iteration 10 : 0.00950661115348339
+Loss at iteration 20 : 0.013417656533420086
+Loss at iteration 30 : 0.00715032871812582
+Loss at iteration 40 : 0.006502506323158741
+Loss at iteration 50 : 0.010025933384895325
+Loss at iteration 60 : 0.011081866919994354
+Loss at iteration 70 : 0.006432394962757826
+Loss at iteration 80 : 0.010195569135248661
+Loss at iteration 90 : 0.00707883620634675
+Loss at iteration 100 : 0.006402918603271246
+Loss at iteration 110 : 0.015864120796322823
+Loss at iteration 120 : 0.00760132959112525
+The SSIM Value is: 0.828340991338094
+The PSNR Value is: 21.39943447113037
+the epoch is: 170
+Loss at iteration 10 : 0.006533765234053135
+Loss at iteration 20 : 0.006420638412237167
+Loss at iteration 30 : 0.008265388198196888
+Loss at iteration 40 : 0.009493550285696983
+Loss at iteration 50 : 0.006618718151003122
+Loss at iteration 60 : 0.011133276857435703
+Loss at iteration 70 : 0.004366850480437279
+Loss at iteration 80 : 0.007787769194692373
+Loss at iteration 90 : 0.008885825052857399
+Loss at iteration 100 : 0.009896920062601566
+Loss at iteration 110 : 0.009648912586271763
+Loss at iteration 120 : 0.011994472704827785
+The SSIM Value is: 0.8250845193862915
+The PSNR Value is: 21.3583246866862
+the epoch is: 171
+Loss at iteration 10 : 0.006126088090240955
+Loss at iteration 20 : 0.007386750541627407
+Loss at iteration 30 : 0.011647483333945274
+Loss at iteration 40 : 0.0067561324685812
+Loss at iteration 50 : 0.006828727666288614
+Loss at iteration 60 : 0.0069602783769369125
+Loss at iteration 70 : 0.008678278885781765
+Loss at iteration 80 : 0.007475157734006643
+Loss at iteration 90 : 0.007118274457752705
+Loss at iteration 100 : 0.013716486282646656
+Loss at iteration 110 : 0.005181398708373308
+Loss at iteration 120 : 0.007900302298367023
+The SSIM Value is: 0.8137564182281494
+The PSNR Value is: 20.830745697021484
+the epoch is: 172
+Loss at iteration 10 : 0.006903925444930792
+Loss at iteration 20 : 0.007962049916386604
+Loss at iteration 30 : 0.00915305782109499
+Loss at iteration 40 : 0.008516795001924038
+Loss at iteration 50 : 0.0083537045866251
+Loss at iteration 60 : 0.014492278918623924
+Loss at iteration 70 : 0.007101402152329683
+Loss at iteration 80 : 0.007315099239349365
+Loss at iteration 90 : 0.011333595030009747
+Loss at iteration 100 : 0.005553369410336018
+Loss at iteration 110 : 0.007270928006619215
+Loss at iteration 120 : 0.010107514448463917
+The SSIM Value is: 0.820401688416799
+The PSNR Value is: 21.005165799458823
+the epoch is: 173
+Loss at iteration 10 : 0.0064044129103422165
+Loss at iteration 20 : 0.0065950388088822365
+Loss at iteration 30 : 0.006894116289913654
+Loss at iteration 40 : 0.011344492435455322
+Loss at iteration 50 : 0.008714605122804642
+Loss at iteration 60 : 0.005944959819316864
+Loss at iteration 70 : 0.006353845354169607
+Loss at iteration 80 : 0.009664415381848812
+Loss at iteration 90 : 0.008539149537682533
+Loss at iteration 100 : 0.009901802986860275
+Loss at iteration 110 : 0.011829545721411705
+Loss at iteration 120 : 0.011015722528100014
+The SSIM Value is: 0.8210409283638
+The PSNR Value is: 21.47604185740153
+the epoch is: 174
+Loss at iteration 10 : 0.005793378688395023
+Loss at iteration 20 : 0.007271239534020424
+Loss at iteration 30 : 0.010471629910171032
+Loss at iteration 40 : 0.009710735641419888
+Loss at iteration 50 : 0.010149682871997356
+Loss at iteration 60 : 0.007530190981924534
+Loss at iteration 70 : 0.00589078851044178
+Loss at iteration 80 : 0.006007041782140732
+Loss at iteration 90 : 0.0076835984364151955
+Loss at iteration 100 : 0.010185830295085907
+Loss at iteration 110 : 0.007545764092355967
+Loss at iteration 120 : 0.00605067890137434
+The SSIM Value is: 0.8189790805180868
+The PSNR Value is: 21.366736094156902
+the epoch is: 175
+Loss at iteration 10 : 0.008033869788050652
+Loss at iteration 20 : 0.006649612449109554
+Loss at iteration 30 : 0.008456585928797722
+Loss at iteration 40 : 0.00936494767665863
+Loss at iteration 50 : 0.006314476486295462
+Loss at iteration 60 : 0.014782181940972805
+Loss at iteration 70 : 0.010417009703814983
+Loss at iteration 80 : 0.01052057184278965
+Loss at iteration 90 : 0.006735664326697588
+Loss at iteration 100 : 0.009277681820094585
+Loss at iteration 110 : 0.010232090950012207
+Loss at iteration 120 : 0.006640294566750526
+The SSIM Value is: 0.8082290808359782
+The PSNR Value is: 20.51445795694987
+the epoch is: 176
+Loss at iteration 10 : 0.01374688372015953
+Loss at iteration 20 : 0.007904055528342724
+Loss at iteration 30 : 0.008011264726519585
+Loss at iteration 40 : 0.007398492656648159
+Loss at iteration 50 : 0.007881988771259785
+Loss at iteration 60 : 0.007980968803167343
+Loss at iteration 70 : 0.00903929304331541
+Loss at iteration 80 : 0.008604077622294426
+Loss at iteration 90 : 0.006274024024605751
+Loss at iteration 100 : 0.015006027184426785
+Loss at iteration 110 : 0.017418263480067253
+Loss at iteration 120 : 0.009987041354179382
+The SSIM Value is: 0.8177055438359578
+The PSNR Value is: 21.0349479675293
+the epoch is: 177
+Loss at iteration 10 : 0.005437769461423159
+Loss at iteration 20 : 0.009379071183502674
+Loss at iteration 30 : 0.004723117221146822
+Loss at iteration 40 : 0.011637088842689991
+Loss at iteration 50 : 0.012178934179246426
+Loss at iteration 60 : 0.011978190392255783
+Loss at iteration 70 : 0.007121612783521414
+Loss at iteration 80 : 0.00811642687767744
+Loss at iteration 90 : 0.00920543447136879
+Loss at iteration 100 : 0.00878789834678173
+Loss at iteration 110 : 0.008233223110437393
+Loss at iteration 120 : 0.006205471698194742
+The SSIM Value is: 0.8239083051681518
+The PSNR Value is: 21.36630210876465
+the epoch is: 178
+Loss at iteration 10 : 0.014823876321315765
+Loss at iteration 20 : 0.00807412900030613
+Loss at iteration 30 : 0.010086635127663612
+Loss at iteration 40 : 0.009447010233998299
+Loss at iteration 50 : 0.004143959376960993
+Loss at iteration 60 : 0.005567746236920357
+Loss at iteration 70 : 0.004719108808785677
+Loss at iteration 80 : 0.009264444001019001
+Loss at iteration 90 : 0.008334885351359844
+Loss at iteration 100 : 0.003159996820613742
+Loss at iteration 110 : 0.012179678305983543
+Loss at iteration 120 : 0.007274661213159561
+The SSIM Value is: 0.8288777788480123
+The PSNR Value is: 21.591187540690104
+the epoch is: 179
+Loss at iteration 10 : 0.005673425737768412
+Loss at iteration 20 : 0.008148351684212685
+Loss at iteration 30 : 0.009067597799003124
+Loss at iteration 40 : 0.008059456944465637
+Loss at iteration 50 : 0.0101328669115901
+Loss at iteration 60 : 0.007993494160473347
+Loss at iteration 70 : 0.008355687372386456
+Loss at iteration 80 : 0.012224693782627583
+Loss at iteration 90 : 0.008769363164901733
+Loss at iteration 100 : 0.010768767446279526
+Loss at iteration 110 : 0.010744612663984299
+Loss at iteration 120 : 0.009208490140736103
+The SSIM Value is: 0.8152576208114624
+The PSNR Value is: 20.710837999979656
+the epoch is: 180
+Loss at iteration 10 : 0.008001827634871006
+Loss at iteration 20 : 0.007531790994107723
+Loss at iteration 30 : 0.00578354811295867
+Loss at iteration 40 : 0.0067840926349163055
+Loss at iteration 50 : 0.019849222153425217
+Loss at iteration 60 : 0.02186851017177105
+Loss at iteration 70 : 0.011138749308884144
+Loss at iteration 80 : 0.006234883330762386
+Loss at iteration 90 : 0.01009000651538372
+Loss at iteration 100 : 0.012947066687047482
+Loss at iteration 110 : 0.007441164460033178
+Loss at iteration 120 : 0.008671972900629044
+The SSIM Value is: 0.833845047156016
+The PSNR Value is: 22.38745746612549
+the highest SSIM value is: 22.38745746612549
+the epoch is: 181
+Loss at iteration 10 : 0.010067524388432503
+Loss at iteration 20 : 0.006670989096164703
+Loss at iteration 30 : 0.006389426998794079
+Loss at iteration 40 : 0.008016402833163738
+Loss at iteration 50 : 0.009843941777944565
+Loss at iteration 60 : 0.007537255994975567
+Loss at iteration 70 : 0.017891528084874153
+Loss at iteration 80 : 0.010511488653719425
+Loss at iteration 90 : 0.010934734717011452
+Loss at iteration 100 : 0.007779028732329607
+Loss at iteration 110 : 0.009880502708256245
+Loss at iteration 120 : 0.009405937045812607
+The SSIM Value is: 0.8113908569018046
+The PSNR Value is: 20.264280192057292
+the epoch is: 182
+Loss at iteration 10 : 0.006968569941818714
+Loss at iteration 20 : 0.009260756894946098
+Loss at iteration 30 : 0.012942885980010033
+Loss at iteration 40 : 0.005257385782897472
+Loss at iteration 50 : 0.010338528081774712
+Loss at iteration 60 : 0.00828947126865387
+Loss at iteration 70 : 0.005246012471616268
+Loss at iteration 80 : 0.008863328956067562
+Loss at iteration 90 : 0.006768073420971632
+Loss at iteration 100 : 0.008017436601221561
+Loss at iteration 110 : 0.00626608170568943
+Loss at iteration 120 : 0.007951870560646057
+The SSIM Value is: 0.8292283097902934
+The PSNR Value is: 21.836068852742514
+the epoch is: 183
+Loss at iteration 10 : 0.013219675049185753
+Loss at iteration 20 : 0.007492425385862589
+Loss at iteration 30 : 0.006876735482364893
+Loss at iteration 40 : 0.007633845321834087
+Loss at iteration 50 : 0.008581004105508327
+Loss at iteration 60 : 0.004876556806266308
+Loss at iteration 70 : 0.009766664355993271
+Loss at iteration 80 : 0.008771526627242565
+Loss at iteration 90 : 0.005570035427808762
+Loss at iteration 100 : 0.008995668031275272
+Loss at iteration 110 : 0.008682428859174252
+Loss at iteration 120 : 0.008947299793362617
+The SSIM Value is: 0.8275238315264384
+The PSNR Value is: 21.704666900634766
+the epoch is: 184
+Loss at iteration 10 : 0.006037440616637468
+Loss at iteration 20 : 0.00917922891676426
+Loss at iteration 30 : 0.00960179977118969
+Loss at iteration 40 : 0.007864564657211304
+Loss at iteration 50 : 0.01067301258444786
+Loss at iteration 60 : 0.008765672333538532
+Loss at iteration 70 : 0.007569137029349804
+Loss at iteration 80 : 0.006964740809053183
+Loss at iteration 90 : 0.00731823593378067
+Loss at iteration 100 : 0.0072056083008646965
+Loss at iteration 110 : 0.011275816708803177
+Loss at iteration 120 : 0.0065485164523124695
+The SSIM Value is: 0.8331608573595682
+The PSNR Value is: 21.905054346720377
+the epoch is: 185
+Loss at iteration 10 : 0.012049708515405655
+Loss at iteration 20 : 0.011556007899343967
+Loss at iteration 30 : 0.005523964762687683
+Loss at iteration 40 : 0.005841920152306557
+Loss at iteration 50 : 0.009293066337704659
+Loss at iteration 60 : 0.008367514237761497
+Loss at iteration 70 : 0.006684732623398304
+Loss at iteration 80 : 0.00743692135438323
+Loss at iteration 90 : 0.005758749321103096
+Loss at iteration 100 : 0.0098097650334239
+Loss at iteration 110 : 0.006126859225332737
+Loss at iteration 120 : 0.010977879166603088
+The SSIM Value is: 0.8202122926712037
+The PSNR Value is: 21.115066146850587
+the epoch is: 186
+Loss at iteration 10 : 0.011326439678668976
+Loss at iteration 20 : 0.011610424146056175
+Loss at iteration 30 : 0.00964299589395523
+Loss at iteration 40 : 0.0146822240203619
+Loss at iteration 50 : 0.012789063155651093
+Loss at iteration 60 : 0.013559511862695217
+Loss at iteration 70 : 0.006818646565079689
+Loss at iteration 80 : 0.00793613400310278
+Loss at iteration 90 : 0.010056658647954464
+Loss at iteration 100 : 0.008284471929073334
+Loss at iteration 110 : 0.0047512417659163475
+Loss at iteration 120 : 0.008925138972699642
+The SSIM Value is: 0.8147525270779927
+The PSNR Value is: 20.30258502960205
+the epoch is: 187
+Loss at iteration 10 : 0.009599149227142334
+Loss at iteration 20 : 0.007470888085663319
+Loss at iteration 30 : 0.010475598275661469
+Loss at iteration 40 : 0.008529003709554672
+Loss at iteration 50 : 0.011762512847781181
+Loss at iteration 60 : 0.006652954965829849
+Loss at iteration 70 : 0.01617635227739811
+Loss at iteration 80 : 0.009482977911829948
+Loss at iteration 90 : 0.005178018473088741
+Loss at iteration 100 : 0.010527843609452248
+Loss at iteration 110 : 0.01606525294482708
+Loss at iteration 120 : 0.009907156229019165
+The SSIM Value is: 0.8300794680913289
+The PSNR Value is: 21.655246671040853
+the epoch is: 188
+Loss at iteration 10 : 0.0074285659939050674
+Loss at iteration 20 : 0.003022299613803625
+Loss at iteration 30 : 0.0075576878152787685
+Loss at iteration 40 : 0.012871968559920788
+Loss at iteration 50 : 0.011080442927777767
+Loss at iteration 60 : 0.005365156568586826
+Loss at iteration 70 : 0.0038181859999895096
+Loss at iteration 80 : 0.008346378803253174
+Loss at iteration 90 : 0.012658200226724148
+Loss at iteration 100 : 0.015917867422103882
+Loss at iteration 110 : 0.007708379533141851
+Loss at iteration 120 : 0.006326699163764715
+The SSIM Value is: 0.8286027987798055
+The PSNR Value is: 21.57168312072754
+the epoch is: 189
+Loss at iteration 10 : 0.009151564911007881
+Loss at iteration 20 : 0.011508740484714508
+Loss at iteration 30 : 0.006386857479810715
+Loss at iteration 40 : 0.00932805985212326
+Loss at iteration 50 : 0.008376507088541985
+Loss at iteration 60 : 0.00810901541262865
+Loss at iteration 70 : 0.0053841229528188705
+Loss at iteration 80 : 0.006713076028972864
+Loss at iteration 90 : 0.00617134477943182
+Loss at iteration 100 : 0.017140520736575127
+Loss at iteration 110 : 0.008475678972899914
+Loss at iteration 120 : 0.009674688801169395
+The SSIM Value is: 0.830281380812327
+The PSNR Value is: 22.210730234781902
+the epoch is: 190
+Loss at iteration 10 : 0.008298814296722412
+Loss at iteration 20 : 0.01045144721865654
+Loss at iteration 30 : 0.010379434563219547
+Loss at iteration 40 : 0.009607224725186825
+Loss at iteration 50 : 0.0057126618921756744
+Loss at iteration 60 : 0.01356448046863079
+Loss at iteration 70 : 0.015414544381201267
+Loss at iteration 80 : 0.0075992075726389885
+Loss at iteration 90 : 0.0072322445921599865
+Loss at iteration 100 : 0.011160599999129772
+Loss at iteration 110 : 0.007525697350502014
+Loss at iteration 120 : 0.007868049666285515
+The SSIM Value is: 0.8118352890014648
+The PSNR Value is: 20.38119322458903
+the epoch is: 191
+Loss at iteration 10 : 0.007781919091939926
+Loss at iteration 20 : 0.00810529850423336
+Loss at iteration 30 : 0.008503627963364124
+Loss at iteration 40 : 0.0046834019012749195
+Loss at iteration 50 : 0.006208349019289017
+Loss at iteration 60 : 0.010321347042918205
+Loss at iteration 70 : 0.005055821035057306
+Loss at iteration 80 : 0.00759289413690567
+Loss at iteration 90 : 0.0036250650882720947
+Loss at iteration 100 : 0.006278295535594225
+Loss at iteration 110 : 0.009571012109518051
+Loss at iteration 120 : 0.005582576617598534
+The SSIM Value is: 0.8222279667854309
+The PSNR Value is: 21.42260144551595
+the epoch is: 192
+Loss at iteration 10 : 0.007681586779654026
+Loss at iteration 20 : 0.006661826744675636
+Loss at iteration 30 : 0.005568713881075382
+Loss at iteration 40 : 0.01213493850082159
+Loss at iteration 50 : 0.010384613648056984
+Loss at iteration 60 : 0.009691539220511913
+Loss at iteration 70 : 0.008507726714015007
+Loss at iteration 80 : 0.008989921770989895
+Loss at iteration 90 : 0.008634827099740505
+Loss at iteration 100 : 0.014500484801828861
+Loss at iteration 110 : 0.008074423298239708
+Loss at iteration 120 : 0.007261935155838728
+The SSIM Value is: 0.8243336041768392
+The PSNR Value is: 21.563960329691568
+the epoch is: 193
+Loss at iteration 10 : 0.010581748560070992
+Loss at iteration 20 : 0.00700666569173336
+Loss at iteration 30 : 0.009552719071507454
+Loss at iteration 40 : 0.009699986316263676
+Loss at iteration 50 : 0.006160186603665352
+Loss at iteration 60 : 0.0060130637139081955
+Loss at iteration 70 : 0.014144765213131905
+Loss at iteration 80 : 0.013783363625407219
+Loss at iteration 90 : 0.008999882265925407
+Loss at iteration 100 : 0.0052866097539663315
+Loss at iteration 110 : 0.019666433334350586
+Loss at iteration 120 : 0.008796406909823418
+The SSIM Value is: 0.8319707075754802
+The PSNR Value is: 22.443758138020833
+the highest SSIM value is: 22.443758138020833
+the epoch is: 194
+Loss at iteration 10 : 0.013401538133621216
+Loss at iteration 20 : 0.00894585158675909
+Loss at iteration 30 : 0.008899540640413761
+Loss at iteration 40 : 0.008879246190190315
+Loss at iteration 50 : 0.00867761205881834
+Loss at iteration 60 : 0.0073336889035999775
+Loss at iteration 70 : 0.010284360498189926
+Loss at iteration 80 : 0.006935987621545792
+Loss at iteration 90 : 0.02075696922838688
+Loss at iteration 100 : 0.010432086884975433
+Loss at iteration 110 : 0.011250930838286877
+Loss at iteration 120 : 0.009158671833574772
+The SSIM Value is: 0.8218894918759664
+The PSNR Value is: 21.614807637532554
+the epoch is: 195
+Loss at iteration 10 : 0.00614894786849618
+Loss at iteration 20 : 0.00489887036383152
+Loss at iteration 30 : 0.006587840151041746
+Loss at iteration 40 : 0.004391325172036886
+Loss at iteration 50 : 0.010011505335569382
+Loss at iteration 60 : 0.00848446600139141
+Loss at iteration 70 : 0.008059737272560596
+Loss at iteration 80 : 0.011036926880478859
+Loss at iteration 90 : 0.011172262951731682
+Loss at iteration 100 : 0.008609524928033352
+Loss at iteration 110 : 0.013927660882472992
+Loss at iteration 120 : 0.006211601197719574
+The SSIM Value is: 0.8073761860529581
+The PSNR Value is: 20.436374791463216
+the epoch is: 196
+Loss at iteration 10 : 0.01136659923940897
+Loss at iteration 20 : 0.011116265319287777
+Loss at iteration 30 : 0.009501375257968903
+Loss at iteration 40 : 0.008354811929166317
+Loss at iteration 50 : 0.005399777553975582
+Loss at iteration 60 : 0.007117024622857571
+Loss at iteration 70 : 0.015595910139381886
+Loss at iteration 80 : 0.013637527823448181
+Loss at iteration 90 : 0.007448567543178797
+Loss at iteration 100 : 0.008367142640054226
+Loss at iteration 110 : 0.008253829553723335
+Loss at iteration 120 : 0.009939552284777164
+The SSIM Value is: 0.8219197869300843
+The PSNR Value is: 21.820750935872397
+the epoch is: 197
+Loss at iteration 10 : 0.011287152767181396
+Loss at iteration 20 : 0.00722564896568656
+Loss at iteration 30 : 0.008532720617949963
+Loss at iteration 40 : 0.008432705886662006
+Loss at iteration 50 : 0.00658873887732625
+Loss at iteration 60 : 0.0062673864886164665
+Loss at iteration 70 : 0.00751592218875885
+Loss at iteration 80 : 0.013203536160290241
+Loss at iteration 90 : 0.006318519823253155
+Loss at iteration 100 : 0.01309939194470644
+Loss at iteration 110 : 0.00556320371106267
+Loss at iteration 120 : 0.014018249697983265
+The SSIM Value is: 0.8349166949590047
+The PSNR Value is: 22.53203976949056
+the highest SSIM value is: 22.53203976949056
+the epoch is: 198
+Loss at iteration 10 : 0.01713375188410282
+Loss at iteration 20 : 0.006556645035743713
+Loss at iteration 30 : 0.006708350032567978
+Loss at iteration 40 : 0.004612625576555729
+Loss at iteration 50 : 0.007144571281969547
+Loss at iteration 60 : 0.0051194713450968266
+Loss at iteration 70 : 0.014076520688831806
+Loss at iteration 80 : 0.01161842979490757
+Loss at iteration 90 : 0.008475922979414463
+Loss at iteration 100 : 0.006829425226897001
+Loss at iteration 110 : 0.006024139001965523
+Loss at iteration 120 : 0.006576128304004669
+The SSIM Value is: 0.8232486486434937
+The PSNR Value is: 21.895073954264323
+the epoch is: 199
+Loss at iteration 10 : 0.01084950938820839
+Loss at iteration 20 : 0.006570759229362011
+Loss at iteration 30 : 0.014253560453653336
+Loss at iteration 40 : 0.011991039849817753
+Loss at iteration 50 : 0.008163388818502426
+Loss at iteration 60 : 0.008342349901795387
+Loss at iteration 70 : 0.008501141332089901
+Loss at iteration 80 : 0.003958298359066248
+Loss at iteration 90 : 0.009942826814949512
+Loss at iteration 100 : 0.015944674611091614
+Loss at iteration 110 : 0.007442919537425041
+Loss at iteration 120 : 0.007435507141053677
+The SSIM Value is: 0.8278122425079346
+The PSNR Value is: 21.742257245381673
